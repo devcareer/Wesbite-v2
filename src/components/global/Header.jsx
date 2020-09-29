@@ -1,5 +1,5 @@
 import React, { useState } from "react"
-import "../assets/scss/app.scss"
+import "../../assets/scss/app.scss"
 
 function Header() {
   //   const [toggle, setToggle] = useState(false)
