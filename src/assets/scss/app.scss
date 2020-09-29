@@ -1,10 +1,7 @@
 // CORE
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
+
 @import "bootstrap/scss/bootstrap-grid.scss";
+@import "./core/overwrite";
 @import "./core/variables";
 @import "./core/font";
 @import "./components/card";

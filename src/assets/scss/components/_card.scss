@@ -1,15 +1,15 @@
 .card {
   text-align: center;
   margin: 0 1rem;
-  &-img {
+  &__img {
     width: 11rem;
     height: 11rem;
     border-radius: 50%;
   }
-  &-body {
+  &__body {
     text-align: center;
   }
-  &-title {
+  &__title {
     font-family: Rubik;
     font-size: 24px;
     font-style: normal;
@@ -18,7 +18,7 @@
     margin: 15px 0;
     color: #05b993;
   }
-  &-text {
+  &__text {
     font-family: Rubik;
     font-size: 16px;
     font-style: normal;
@@ -28,7 +28,7 @@
     text-align: center;
     color: #4c5059;
   }
-  &-company {
+  &__company {
     font-family: Poppins;
     font-style: normal;
     font-weight: 300;
@@ -37,7 +37,7 @@
     margin: 13px 0;
     color: #4c5059;
   }
-  &-socials {
+  &__socials {
     img {
       margin: 0 0.3rem;
     }
