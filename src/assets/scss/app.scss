@@ -2,5 +2,9 @@
 
 @import "bootstrap/scss/bootstrap-grid.scss";
 @import "./core/variables";
+@import "./core/overwrite";
 @import "./core/font"; 
-@import "./core/footer"; 
+
+
+// COMPONENTS
+@import "./components/global/footer"; 
