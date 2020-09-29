@@ -7,7 +7,8 @@
 .hero {
   height: 100%;
   &__image {
-    background-image: linear-gradient(rgba(64, 67, 82, 0.75), rgba(64, 67, 82, 0.75)), url("../images/hero-image.png");
+    background-image: linear-gradient(rgba(64, 67, 82, 0.75), rgba(64, 67, 82, 0.75)),
+      url("https://res.cloudinary.com/broma/image/upload/v1601368681/devcareer/Mask_Group_l7uv3e.png");
     height: 50%;
     background-position: center;
     background-repeat: no-repeat;
