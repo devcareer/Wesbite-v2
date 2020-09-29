@@ -1,0 +1,58 @@
+.accordion {
+  width: 25em;
+  margin: 0 auto;
+  padding-top: 4em;
+
+  background: $white;
+
+  box-sizing: border-box;
+}
+
+.top-div-active {
+  background-color: $primaryColor;
+}
+
+.top-div {
+  padding: 0 1em;
+
+  border: 1px solid $secondaryColor;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.1);
+
+  &__content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  &__btn {
+    color: $primaryColor;
+  }
+
+  &__text {
+    color: $secondaryColor;
+  }
+}
+
+.bottom-div {
+  padding: 1em;
+  //border-radius: 8px 8px 0 0;
+  color: $secondaryColor;
+  border: 1px solid #05B993;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.1);
+  //display: none;
+
+  &__header {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 134.1%;
+
+
+  }
+
+  &__content {
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 134.1%;
+
+  }
+}
