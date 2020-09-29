@@ -1,6 +1,5 @@
 import React from "react"
 import "../assets/scss/app.scss"
-import "../assets/scss/hero.scss"
 
 const Hero = ({title}) => {
   return (
