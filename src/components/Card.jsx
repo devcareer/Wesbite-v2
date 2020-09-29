@@ -1,15 +1,10 @@
-import { Link } from "gatsby"
 import React from "react"
 import PropTypes from "prop-types"
-function Card({ name, title, socials }) {
+function Card({ name, image, title, socials }) {
   return (
     <>
       <div className="card">
-        <img
-          src="https://res.cloudinary.com/gfellah45/image/upload/v1601374966/img/pictures_tdnnso.png"
-          className="card-img"
-          alt="candidate"
-        />
+        <img src={image} className="card-img" alt={name} />
         <div className="card-body">
           <p className="card-title">{name}</p>
           <p className="card-text">{title}</p>
@@ -18,18 +13,18 @@ function Card({ name, title, socials }) {
             {socials.map((each, idx) => (
               <div className="card-socials" key={idx}>
                 {" "}
-                <Link to={each.twitter}>
+                <a href={each.twitter} target="_blank">
                   <img
                     src="https://res.cloudinary.com/gfellah45/image/upload/v1601374991/img/twitter_tqfwrj.png"
                     alt="twitter"
                   />
-                </Link>
-                <Link to={each.github}>
+                </a>
+                <a href={each.github} target="_blank">
                   <img
                     src="https://res.cloudinary.com/gfellah45/image/upload/v1601374976/img/github_typexk.png"
                     alt="github"
                   />
-                </Link>
+                </a>
               </div>
             ))}
           </div>
@@ -40,9 +35,10 @@ function Card({ name, title, socials }) {
 }
 
 Card.propTypes = {
-  name: PropTypes.string,
-  title: PropTypes.string,
-  socials: PropTypes.array,
+  name: PropTypes.string.isRequired,
+  image: PropTypes.string.isRequired,
+  title: PropTypes.string.isRequired,
+  socials: PropTypes.array.isRequired,
 }
 
 export default Card

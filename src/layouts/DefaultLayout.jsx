@@ -7,14 +7,21 @@ export default function DefaultLayout({ children }) {
   const data = [
     {
       id: 1,
+      image:
+        "https://res.cloudinary.com/gfellah45/image/upload/v1601374966/img/pictures_tdnnso.png",
       name: "Meyene Udoh",
       title: "Software Developer",
       socials: [
-        { twitter: "twitter/meyeneudo", github: "facebook/meyeneudoh" },
+        {
+          twitter: "https://twitter/meyeneudo",
+          github: "https://facebook/meyeneudoh",
+        },
       ],
     },
     {
       id: 1,
+      image:
+        "https://res.cloudinary.com/gfellah45/image/upload/v1601374966/img/pictures_tdnnso.png",
       name: "Okoye CB",
       title: "Software Developer",
       socials: [
@@ -30,6 +37,7 @@ export default function DefaultLayout({ children }) {
         {data.map(candidate => (
           <Card
             key={candidate.id}
+            image={candidate.image}
             name={candidate.name}
             title={candidate.title}
             socials={candidate.socials}
