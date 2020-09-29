@@ -4,5 +4,8 @@
 @import "./core/variables";
 @import "./core/font";
 
-// HEADER COMPONENT SCSS
-@import "./header";
+@import "./core/overwrite";
+
+// COMPONENTS
+@import "./components/global/footer";
+@import "./components/global/header";

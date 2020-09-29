@@ -10,11 +10,11 @@ function Header() {
         <img
           src="https://res.cloudinary.com/dctmgu7mb/image/upload/v1601332391/devLogo_ocngza.png"
           alt="DevCareer_Logo"
-          className="header-content_image"
+          className="header-content__image"
         />
 
         <ul className="nav-links">
-          <div className="nav-links_content">
+          <div className="nav-links__content">
             <li>Home</li>
             <li>About</li>
             <li>Gallery</li>
@@ -27,14 +27,14 @@ function Header() {
           <img
             src="https://res.cloudinary.com/dctmgu7mb/image/upload/v1601335268/square_qdvc8c.png"
             alt="Hamburger_Menu"
-            className="nav-links_hamburger"
+            className="nav-links__hamburger"
             // onClick={() => {
             //   setToggle(!toggle)
             // }}
           />
         </ul>
 
-        <ul className="nav-links_mobile">
+        <ul className="nav-links__mobile">
           <li>Home</li>
           <li>About</li>
           <li>Gallery</li>

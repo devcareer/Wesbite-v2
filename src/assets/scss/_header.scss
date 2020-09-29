@@ -37,7 +37,7 @@ nav {
       font-size: 1em;
     }
 
-    &_content {
+    &__content {
       display: flex;
       align-items: center;
       justify-content: space-around;
@@ -46,7 +46,7 @@ nav {
         display: none;
       }
     }
-    &_hamburger {
+    &__hamburger {
       width: 50px;
       display: none;
       @media screen and (max-width: 768px) {
@@ -54,7 +54,7 @@ nav {
       }
     }
     // mobile links to dusplay on mobile screen
-    &_mobile {
+    &__mobile {
       align-items: center;
       width: 90%;
       justify-content: space-between;
