@@ -15,7 +15,7 @@ export default function AccordionCard({ question, answer, content }) {
       <div
         style={{
           borderRadius: expand ? "8px 8px 0 0" : "8px",
-          border: expand && "none",
+          border: expand && "1px solid #05b993",
         }}
         className={expand ? "top-div-active top-div" : "top-div"}
       >
