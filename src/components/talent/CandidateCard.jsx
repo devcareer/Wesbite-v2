@@ -13,13 +13,13 @@ function Card({ name, image, title, socials }) {
           {socials.map((each, idx) => (
             <div className="card__socials" key={idx}>
               {" "}
-              <a href={each.twitter} target="_blank">
+              <a href={each.twitter} target="_blank" rel="noreferrer">
                 <img
                   src="https://res.cloudinary.com/gfellah45/image/upload/v1601474738/img/githubsvg_e9snoa.svg"
                   alt="twitter"
                 />
               </a>
-              <a href={each.github} target="_blank">
+              <a href={each.github} target="_blank" rel="noreferrer">
                 <img
                   src="https://res.cloudinary.com/gfellah45/image/upload/v1601474738/img/twitersvg_amzlth.svg"
                   alt="github"
