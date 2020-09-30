@@ -32,18 +32,19 @@ nav {
       align-items: center;
       justify-content: space-around;
       list-style-type: none;
-      @media screen and (max-width: 768px) {
+      @include media-breakpoint-down(sm) {
         display: none;
       }
     }
+
     &__hamburger {
       width: 50px;
       display: none;
-      @media screen and (max-width: 768px) {
+      @include media-breakpoint-down(sm) {
         display: block;
       }
     }
-    // mobile links to dusplay on mobile screen
+    // mobile links to display on mobile screen
     &__mobile {
       align-items: center;
       width: 90%;
@@ -57,7 +58,7 @@ nav {
       z-index: -1;
       display: none;
 
-      @media screen and (max-width: 768px) {
+      @include media-breakpoint-down(sm) {
         display: block;
       }
     }
