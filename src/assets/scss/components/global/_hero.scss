@@ -1,0 +1,40 @@
+// CORE
+
+@import "bootstrap/scss/bootstrap-grid.scss";
+@import "./core/variables";
+@import "./core/font";
+
+.hero {
+  height: 100%;
+  &__image {
+    background-image: linear-gradient(rgba(64, 67, 82, 0.75), rgba(64, 67, 82, 0.75)),
+      url("https://res.cloudinary.com/broma/image/upload/v1601368681/devcareer/Mask_Group_l7uv3e.png");
+    height: 50%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    padding: 2.5rem 0;
+  }
+
+  &__text {
+    text-align: center;
+    color: $white;
+  }
+
+  &__title {
+    font-weight: bold;
+    font-size: 40px;
+    line-height: 47px;
+    margin: 0;
+  }
+  &__subtitle {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 163.2%;
+
+    &--span {
+      color: $primaryColor;
+    }
+  }
+}

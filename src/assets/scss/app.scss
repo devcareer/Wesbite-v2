@@ -1,5 +1,4 @@
 // CORE
-
 @import "bootstrap/scss/bootstrap-grid.scss";
 @import "./core/overwrite";
 @import "./core/variables";
@@ -7,7 +6,11 @@
 @import "./core/overwrite";
 
 // COMPONENTS
-@import "./components/global/button";
 @import "./components/global/header";
-@import "./components/global/footer";
-@import "./components/talent/candidatecard"; //PAGES
+@import "./components/global/button"; 
+@import "./components/global/hero"; 
+@import "./components/global/footer"; 
+@import "./components/talent/candidatecard";
+
+//PAGES
+@import "./pages/home";
