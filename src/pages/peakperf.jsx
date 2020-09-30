@@ -1,6 +1,6 @@
 import React from "react"
 import DefaultLayout from "../layouts/DefaultLayout"
-import Card from "../components/Card"
+import CandidateCard from "../components/talent/CandidateCard"
 function peakperf() {
   const data = [
     {
@@ -33,7 +33,7 @@ function peakperf() {
         {/* sample view */}
         <div className="row ml-4 mt-4">
           {data.map(candidate => (
-            <Card
+            <CandidateCard
               key={candidate.id}
               image={candidate.image}
               name={candidate.name}

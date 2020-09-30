@@ -15,13 +15,13 @@ function Card({ name, image, title, socials }) {
               {" "}
               <a href={each.twitter} target="_blank">
                 <img
-                  src="https://res.cloudinary.com/gfellah45/image/upload/v1601374991/img/twitter_tqfwrj.png"
+                  src="https://res.cloudinary.com/gfellah45/image/upload/v1601474738/img/githubsvg_e9snoa.svg"
                   alt="twitter"
                 />
               </a>
               <a href={each.github} target="_blank">
                 <img
-                  src="https://res.cloudinary.com/gfellah45/image/upload/v1601374976/img/github_typexk.png"
+                  src="https://res.cloudinary.com/gfellah45/image/upload/v1601474738/img/twitersvg_amzlth.svg"
                   alt="github"
                 />
               </a>
