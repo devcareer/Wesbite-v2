@@ -3,18 +3,12 @@
 @import "bootstrap/scss/bootstrap-grid.scss";
 @import "./core/variables";
 @import "./core/font";
-<<<<<<< HEAD
-
-
-// COMPONENTS
-@import "./components/accordion.scss";
-=======
 @import "./core/overwrite";
 
 // COMPONENTS
 @import "./components/global/header";
-@import "./components/global/footer"; 
+@import "./components/global/footer";
+@import "./components/accordion.scss";
 
 //PAGES
 @import "./pages/home";
->>>>>>> 9badb7ed9d15b987d4bc2150e1cbbd2bc44e1154
