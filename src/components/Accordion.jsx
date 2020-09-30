@@ -1,6 +1,6 @@
 import React from "react"
 import AccordionCard from "./AccordionCard"
-import AccordionContent from "./AccordionContents"
+import AccordionContent from "../data/AccordionContents"
 
 const getAccordion = AccordionContent.map(item => (
   <AccordionCard
