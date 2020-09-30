@@ -5,7 +5,7 @@
 
 .footer {
   background: $secondaryColor;
-  color: #fff;
+  color: $white;
   width: 100%;
   height: 444px;
 
@@ -43,34 +43,19 @@
         border: none;
         background: #484848;
         font-size: 0.8rem;
-        color: #fff;
+        color: $white;
         outline: none;
         border-radius: 5px 0px 0px 5px;
 
         &:focus-within {
           outline: none;
         }
-        ::-webkit-input-placeholder {
-          /* Chrome/Opera/Safari */
-          color: #fff;
-        }
-        ::-moz-placeholder {
-          /* Firefox 19+ */
-          color: #fff;
-        }
-        :-ms-input-placeholder {
-          /* IE 10+ */
-          color: #fff;
-        }
-        :-moz-placeholder {
-          /* Firefox 18- */
-          color: #fff;
-        }
       }
+
       button {
         font-weight: 700;
         font-size: 0.8rem;
-        color: #fff;
+        color: $white;
         padding: 1rem 2.5rem;
         margin-left: -1px;
         background: $primaryColor;
@@ -82,7 +67,7 @@
         &:hover {
           border: 1px solid $primaryColor;
           color: $primaryColor;
-          background: #fff;
+          background: $white;
         }
       }
     }
@@ -102,7 +87,7 @@
         list-style: none;
 
         a {
-          color: #fff;
+          color: $white;
           text-decoration: none;
           transition: color 0.3s ease;
 
@@ -119,13 +104,13 @@
     padding: 0 1rem;
     svg {
       margin: 0 1rem;
-      fill: #fff;
+      fill: $white;
       transition: all 0.3s ease;
     }
   }
 }
 
-@media (max-width: 660px) {
+@include media-breakpoint-down(xs) {
   .footer {
     overflow: hidden;
   }
@@ -141,5 +126,9 @@
   }
   .form__input {
     border-radius: 5px !important;
+  }
+
+  .links {
+    text-align: center;
   }
 }
