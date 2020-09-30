@@ -2,20 +2,14 @@
 
 @import "bootstrap/scss/bootstrap-grid.scss";
 @import "./core/variables";
+@import "./core/font";
 @import "./core/overwrite";
-@import "./core/font"; 
-
 
 // COMPONENTS
+@import "./components/global/header";
+@import "./components/global/button"; 
 @import "./components/global/hero"; 
 @import "./components/global/footer"; 
 
-body {
-  margin: 0;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-}
-
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New", monospace;
-}
+//PAGES
+@import "./pages/home";
