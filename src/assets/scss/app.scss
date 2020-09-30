@@ -4,6 +4,10 @@
 @import "./core/overwrite";
 @import "./core/variables";
 @import "./core/font";
-@import "./components/card";
-@import "./core/font";
-@import "./core/footer";
+@import "./core/overwrite";
+
+// COMPONENTS
+@import "./components/global/button";
+@import "./components/global/header";
+@import "./components/global/footer";
+@import "./components/card"; //PAGES
