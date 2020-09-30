@@ -60,6 +60,10 @@ nav {
   display: none;
   z-index: 1;
 
+  img {
+    transition: all 0.2s ease;
+  }
+
   &__open {
     width: 35px;
     height: 35px;
