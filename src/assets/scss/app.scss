@@ -3,9 +3,11 @@
 @import "bootstrap/scss/bootstrap-grid.scss";
 @import "./core/variables";
 @import "./core/font";
-
 @import "./core/overwrite";
 
 // COMPONENTS
-@import "./components/global/footer";
 @import "./components/global/header";
+@import "./components/global/footer"; 
+
+//PAGES
+@import "./pages/home";

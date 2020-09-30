@@ -4,7 +4,9 @@ import DefaultLayout from "../layouts/DefaultLayout"
 export default function Home() {
   return (
     <DefaultLayout>
-      Hello World
+      <div className="home">
+        <section className="home__hero"></section>
+      </div>
     </DefaultLayout>
   )
 }
