@@ -21,16 +21,6 @@ nav {
   }
 
   .nav-links {
-    button {
-      width: 175px;
-      height: 68px;
-      border: 1px solid $primaryColor;
-      box-sizing: border-box;
-      border-radius: 5px;
-      background: $white;
-      color: $primaryColor;
-      font-size: 1em;
-    }
 
     li {
       padding: 10px;
@@ -66,16 +56,6 @@ nav {
       top: 150px;
       z-index: -1;
       display: none;
-      button {
-        width: 175px;
-        height: 68px;
-        border: 1px solid $primaryColor;
-        box-sizing: border-box;
-        border-radius: 5px;
-        background: $white;
-        color: $primaryColor;
-        font-size: 1em;
-      }
 
       @media screen and (max-width: 768px) {
         display: block;
