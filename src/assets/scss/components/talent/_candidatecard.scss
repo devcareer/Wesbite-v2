@@ -1,0 +1,45 @@
+.card {
+  text-align: center;
+  margin: 0 1rem;
+  &__img {
+    width: 11rem;
+    height: 11rem;
+    border-radius: 50%;
+  }
+  &__body {
+    text-align: center;
+  }
+  &__title {
+    font-family: Rubik;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    letter-spacing: 0em;
+    margin: 15px 0;
+    color: #05b993;
+  }
+  &__text {
+    font-family: Rubik;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 19px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: #4c5059;
+  }
+  &__company {
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 12px;
+    line-height: 18px;
+    margin: 13px 0;
+    color: #4c5059;
+  }
+  &__socials {
+    img {
+      margin: 0 0.3rem;
+    }
+  }
+}

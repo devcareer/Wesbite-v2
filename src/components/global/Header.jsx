@@ -21,7 +21,7 @@ function Header() {
             <li>Resources</li>
             <li>Talents</li>
             <li>
-              <button>Support Us</button>
+              <button className="button button--outline">Support Us</button>
             </li>
           </div>
           <img
@@ -41,7 +41,7 @@ function Header() {
           <li>Resources</li>
           <li>Talents</li>
           <li>
-            <button>Support Us</button>
+            <button className="button button--outline">Support Us</button>
           </li>
         </ul>
       </div>

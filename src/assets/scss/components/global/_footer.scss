@@ -38,6 +38,7 @@
     width: 100%;
     @extend %gridCenter;
     .inputs {
+      display: flex;
       input {
         padding: 1rem 3rem;
         border: none;
@@ -53,22 +54,12 @@
       }
 
       button {
+        border-radius: 0px 5px 5px 0px;
         font-weight: 700;
         font-size: 0.8rem;
         color: $white;
-        padding: 1rem 2.5rem;
+        height: 60px;
         margin-left: -1px;
-        background: $primaryColor;
-        border: none;
-        border-radius: 0px 5px 5px 0px;
-        cursor: pointer;
-        transition: all 0.3s ease;
-
-        &:hover {
-          border: 1px solid $primaryColor;
-          color: $primaryColor;
-          background: $white;
-        }
       }
     }
   }
