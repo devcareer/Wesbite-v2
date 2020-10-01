@@ -23,5 +23,10 @@ button,
         background-color: transparent;
         border: 1px solid $primaryColor;
         color: $primaryColor;
+
+        &:hover {
+          background-color: $primaryColor;
+          color: $white !important;
+        }
     }
 }
