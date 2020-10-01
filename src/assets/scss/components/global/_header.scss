@@ -98,7 +98,8 @@ nav {
     list-style-type: none;
     margin: 0;
     padding: 60px 10px;
-    background: #e5e5e5;
+    background: $secondaryColor;
+    color: white;
 
     li {
       font-size: 2rem;

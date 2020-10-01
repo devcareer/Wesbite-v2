@@ -39,6 +39,9 @@
     @extend %gridCenter;
     .inputs {
       display: flex;
+      @include media-breakpoint-down(sm) {
+        flex-direction: column;
+      }
       input {
         padding: 1rem 3rem;
         border: none;

@@ -14,6 +14,12 @@ button,
     transition: all 0.3s ease;
     border: 1px solid $primaryColor;
 
+
+    @include media-breakpoint-down(sm) {
+      height: 50px;
+      font-size: 0.6em;
+    }
+
     &:hover {
       border: 1px solid $primaryColor;
       color: $primaryColor !important;
