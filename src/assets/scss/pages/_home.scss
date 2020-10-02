@@ -1,8 +1,142 @@
+// Home page stlying
 .home {
     &__hero {
         background-color: $white;
+        .showcase__content{
+            display: flex;
+            align-content: center;
+            justify-content: space-between;
+            margin: 5rem 0;
+            &__text{
+                width: 100%;
+                .showcase__header{
+                    h1{
+                        color: $primaryColor;
+                        font-size: 3rem;
+                    }
+                }
+                .showcase__para{
+                    width: 100%;
+                    p{
+                        line-height: 2;
+                        font-size: 1.05rem;
+                    }
+                }
+            }
+            
+            // Circlular image styling
+            &__img{
+                width: 100%;
+                display: flex;
+                align-items: flex-end;
+                justify-content: flex-end;
+                .img{
+                    background: url("https://res.cloudinary.com/everich1/image/upload/v1601636352/girl_mozmgy.png");
+                    background-position: center;
+                    background-repeat: no-repeat;
+                    background-size: cover;
+                    border-radius: 50%;
+                    position: relative;
+                    width: 300px;
+                    height: 300px;
+    
+                    img{
+                        border: 10px solid #fff;
+                        box-shadow: 10px 20px 30px #05b99234;
+                       border-radius: 50%;
+                       position: absolute;
+                       width: 100%;
+                       height: 100%;
+                       left: -200px;
+                       bottom: -150px;
+                       transform-origin: left;
+                        margin-bottom: 3rem;
+                    }
+                }
+            }
+            .square{
+                width: 70px;
+                height: 70px;
+                border: 1px solid $primaryColor;
+                transform: rotate(-23.98deg);
+                position: absolute;
+                bottom: -85px;
+                right: 70px;
+            }
+        }
     }
-    &__exists {
+
+
+     .goal{
+             margin: 10rem 0;
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+             &__header{
+                 border: 1px solid red;
+                 font-size: 48px;
+                 font-weight: 700;
+                 width: 100%;
+                 p{
+                     color:$secondaryColor;
+                    line-height: 1.3;
+                 }
+                 span{
+                     display: block;
+                     color: $primaryColor;
+                 }
+             }
+             &__para{
+                 width: 100%;
+                 font-size: 24px;
+                 line-height: 1.4;
+             }
+     }
+}
+
+.clearfix {
+    overflow: auto;
+  }
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+
+
+
+
+
+//   Media query for small screens
+
+  @include media-breakpoint-down (sm){
+   .home .showcase__content{
+        display: block;
+        .img{
+            width: 250px !important;
+            height: 250px !important;
+            width: 98%;
+    
+            img{
+                width: 100%;
+                height: 100%;
+            }
+        }
+        .square{
+            width: 60px;
+            height:60px;
+        }
+    }
+    .home .goal{
         
-    }
+           display: block;
+        &__header{
+            font-size: 30px;       
+        }
+        &__para{
+            font-size: 18px;
+        }
+}
+
+
 }

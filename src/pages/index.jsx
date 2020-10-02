@@ -6,15 +6,17 @@ export default function Home() {
   return (
     <DefaultLayout>
       <div className="home">
-        <section className="home__hero">
-          <div className="container">
-            <Showcase />
-          </div>
-        </section>
+       <Showcase />
+       <div className="clearfix"></div>
+       
         <section className="home__exists">
-          <div className="container">Helloworld</div>
+          <div className="container">
+              
+          </div>
         </section>
       </div>
     </DefaultLayout>
   )
 }
+
+
