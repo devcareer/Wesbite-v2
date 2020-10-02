@@ -2,6 +2,7 @@ import React, { useState } from "react"
 import { Link } from 'gatsby'
 import "../../assets/scss/app.scss"
 
+
 function Header() {
   const [mobileNav, setMobileNav] = useState(false)
   const [navHiddenClass, setNavHiddenClass] = useState("")
@@ -41,7 +42,7 @@ function Header() {
             />
           ) : (
             <img
-              src="https://res.cloudinary.com/drqltx8ye/image/upload/v1601484000/close_1_bx0uzk.svg"
+              src="https://res.cloudinary.com/drqltx8ye/image/upload/v1601644095/close_2_vluprf.svg"
               alt="Close icon"
               className="mobile-nav-toggle__close"
             />
