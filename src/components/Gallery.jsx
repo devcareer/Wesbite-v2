@@ -5,7 +5,7 @@ function Gallery({col, src, text}) {
     <>
     <div className={col}>
       <img className="img-fluid img-thumbnail" src={src} alt={text}/>
-    <p>{text}</p>
+    <p className="desc">{text}</p>
     </div>
     </>
   );
