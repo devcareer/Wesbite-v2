@@ -1,4 +1,5 @@
 import React, { useState } from "react"
+import { Link } from 'gatsby'
 import "../../assets/scss/app.scss"
 
 function Header() {
@@ -15,11 +16,11 @@ function Header() {
         />
 
         <ul className="nav-links-desktop">
-          <li>Home</li>
-          <li>About</li>
-          <li>Gallery</li>
-          <li>Resources</li>
-          <li>Talents</li>
+          <li><Link to="#">Home</Link></li>
+          <li><Link to="#">About</Link></li>
+          <li><Link to="#">Gallery</Link></li>
+          <li><Link to="#">Resources</Link></li>
+          <li><Link to="#">Talents</Link></li>
           <li>
             <button className="button button--outline">Support Us</button>
           </li>
@@ -53,11 +54,11 @@ function Header() {
           }`}
         >
           <ul className="mobile-nav__links">
-            <li>Home</li>
-            <li>About</li>
-            <li>Gallery</li>
-            <li>Resources</li>
-            <li>Talents</li>
+            <li><Link to="#">Home</Link></li>
+            <li><Link to="#">About</Link></li>
+            <li><Link to="#">Gallery</Link></li>
+            <li><Link to="#">Resources</Link></li>
+            <li><Link to="#">Talents</Link></li>
             <li>
               <button className="button button--outline">Support Us</button>
             </li>
