@@ -1,5 +1,6 @@
 import React from "react"
 import Showcase from "../components/Showcase"
+import Slider from "../components/Slider"
 import DefaultLayout from "../layouts/DefaultLayout"
 
 export default function Home() {
@@ -15,6 +16,7 @@ export default function Home() {
           </div>
         </section>
       </div>
+      <Slider />
     </DefaultLayout>
   )
 }
