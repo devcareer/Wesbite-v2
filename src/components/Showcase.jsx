@@ -31,7 +31,9 @@ const Showcase = () => {
             </div>
           </div>
         </div>
-        <div className="container">
+
+        {/* This is suppose to be my part Bernard, so i commented it out */}
+        {/*<div className="container">
           <div className="goal">
             <div className="goal__header">
               <p>Become a developer</p>
@@ -46,7 +48,10 @@ const Showcase = () => {
             </div>
           </div>
         </div>
-      </div>
+  */}
+
+
+  </div>
     </section>
   )
 }
