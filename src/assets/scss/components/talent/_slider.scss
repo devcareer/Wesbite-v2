@@ -50,8 +50,27 @@ overflow: hidden;
         }
     }
 }
+
+
 }
-   
+.react-multi-carousel-list{
+    padding: 2rem 0;
+}
+
+
+.react-multi-carousel-dot-list.custom-dot-list-style{
+    padding: 2rem 0;
+    bottom: -10px !important;
+}
+.react-multi-carousel-dot  button{
+    background:  #9F9F9F !important;
+    height: 20px !important;
+    width: 20px !important;
+    border: none !important;
+}
+.react-multi-carousel-dot.react-multi-carousel-dot--active button{
+    background: $primaryColor !important;
+}
 @include media-breakpoint-down (sm){
     .slider__container .slider{
         display: block;
