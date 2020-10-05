@@ -5,7 +5,7 @@ import Gallery from "../components/Gallery";
 import { gallery } from "../data/GalleryData";
 
 
-export default function GalleryImg() {
+export default function Gallery() {
   return (
     <DefaultLayout>
     <Hero title="Gallery" />
