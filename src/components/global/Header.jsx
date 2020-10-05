@@ -32,7 +32,13 @@ function Header() {
             setMobileNav(!mobileNav)
             if (mobileNav) setNavHiddenClass("slide-out-left")
           }}
+          onKeyDown={() => {
+            setMobileNav(!mobileNav)
+            if (mobileNav) setNavHiddenClass("slide-out-left")
+          }}
           className="mobile-nav-toggle"
+          role="button"
+          tabIndex={0}
         >
           {!mobileNav ? (
             <img
