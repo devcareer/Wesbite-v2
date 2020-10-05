@@ -1,6 +1,6 @@
 import React from "react";
 
-function Gallery({col, src, text}) {
+export default function GalleryImg({col, src, text}) {
   return (
     <>
     <div className={col}>
@@ -10,5 +10,3 @@ function Gallery({col, src, text}) {
     </>
   );
 }
-
-export default Gallery
