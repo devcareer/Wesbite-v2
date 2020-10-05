@@ -1,3 +1,5 @@
+@import "../components/global/button";
+
 .title {
   font-family: Rubik;
   font-style: normal;
@@ -6,4 +8,10 @@
   text-align: center;
   color: #1f1f1f;
   margin-bottom: 4rem;
+}
+.button__container {
+  width: 50%;
+  margin: auto;
+  text-align: center;
+  padding: 5rem 0;
 }

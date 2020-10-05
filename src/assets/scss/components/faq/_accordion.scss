@@ -1,0 +1,81 @@
+.accordion {
+  width: 768px;
+  max-width: 100%;
+  min-height: 101px;
+  margin: 0 auto;
+
+  background: $white;
+
+  box-sizing: border-box;
+
+  &:first-of-type {
+    margin-top: 5em;
+  }
+}
+
+.top-div-active {
+  background-color: $primaryColor;
+}
+
+.top-div {
+  padding: 0 1em;
+
+  border: 1px solid $secondaryColor;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.1);
+
+  &__content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  &__btn {
+    color: $primaryColor;
+
+    &:hover {
+      cursor: pointer;
+    }
+  }
+
+  &__text {
+    color: $secondaryColor;
+    font-size: 24px;
+
+    @media screen and (max-width: 500px) {
+      font-size: 12px;
+    }
+  }
+}
+
+.bottom-div {
+  padding: 1em;
+  //border-radius: 8px 8px 0 0;
+  color: $secondaryColor;
+  border: 1px solid $primaryColor;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.1);
+
+  margin-bottom: 2em;
+
+  &__header {
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 134.1%;
+
+    @media screen and (max-width: 500px) {
+      font-size: 12px;
+    }
+
+
+  }
+
+  &__content {
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 134.1%;
+
+    @media screen and (max-width: 500px) {
+      font-size: 7px;
+    }
+
+  }
+}
