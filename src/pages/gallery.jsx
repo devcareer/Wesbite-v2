@@ -10,11 +10,11 @@ export default function Gallery() {
       <Hero title="Gallery" />
       <div className="container mt-5">
         <div className="row">
-          <div className="col-12 col-sm-8 offset-sm-2 mb-5">
+          <div className="col-12 col-sm-7 offset-sm-3 mb-5">
             <p className="page-desc">
-              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Rerum
-              explicabo inventore culpa natus mollitia veniam quia alias
-              voluptates sapiente incidunt.
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+            Euismod donec amet tempor ac. A nunc in elit morbi 
+            tortor  ut faucibus. Egestas.
             </p>
           </div>
         </div>
