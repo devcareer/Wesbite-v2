@@ -8,7 +8,7 @@ export default function Home() {
       <Hero title="Support us" />
       <div className="support mt-4 mb-4">
         <div className="support__row container">
-          <div className="support__margin--bottom row">
+          <div className="support__margin--bottom support__margin--top row mb-mt-0">
             <div className="col-md-6">
               <h1 className="support__title">
                 Become a{" "}

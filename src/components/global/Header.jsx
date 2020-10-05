@@ -1,7 +1,6 @@
 import React, { useState } from "react"
-import { Link } from 'gatsby'
+import { Link } from "gatsby"
 import "../../assets/scss/app.scss"
-
 
 function Header() {
   const [mobileNav, setMobileNav] = useState(false)
@@ -17,11 +16,21 @@ function Header() {
         />
 
         <ul className="nav-links-desktop">
-          <li><Link to="#">Home</Link></li>
-          <li><Link to="#">About</Link></li>
-          <li><Link to="#">Gallery</Link></li>
-          <li><Link to="#">Resources</Link></li>
-          <li><Link to="#">Talents</Link></li>
+          <li>
+            <Link to="#">Home</Link>
+          </li>
+          <li>
+            <Link to="#">About</Link>
+          </li>
+          <li>
+            <Link to="#">Gallery</Link>
+          </li>
+          <li>
+            <Link to="#">Resources</Link>
+          </li>
+          <li>
+            <Link to="#">Talents</Link>
+          </li>
           <li>
             <button className="button button--outline">Support Us</button>
           </li>
@@ -30,11 +39,21 @@ function Header() {
         <div
           onClick={() => {
             setMobileNav(!mobileNav)
-            if (mobileNav) setNavHiddenClass("slide-out-left")
+            if (mobileNav) {
+              setNavHiddenClass("slide-out-left")
+              document.body.style.position = ""
+            } else {
+              document.body.style.position = "fixed"
+            }
           }}
           onKeyDown={() => {
             setMobileNav(!mobileNav)
-            if (mobileNav) setNavHiddenClass("slide-out-left")
+            if (mobileNav) {
+              setNavHiddenClass("slide-out-left")
+              document.body.style.position = ""
+            } else {
+              document.body.style.position = "fixed"
+            }
           }}
           className="mobile-nav-toggle"
           role="button"
@@ -61,11 +80,21 @@ function Header() {
           }`}
         >
           <ul className="mobile-nav__links">
-            <li><Link to="#">Home</Link></li>
-            <li><Link to="#">About</Link></li>
-            <li><Link to="#">Gallery</Link></li>
-            <li><Link to="#">Resources</Link></li>
-            <li><Link to="#">Talents</Link></li>
+            <li>
+              <Link to="#">Home</Link>
+            </li>
+            <li>
+              <Link to="#">About</Link>
+            </li>
+            <li>
+              <Link to="#">Gallery</Link>
+            </li>
+            <li>
+              <Link to="#">Resources</Link>
+            </li>
+            <li>
+              <Link to="#">Talents</Link>
+            </li>
             <li>
               <button className="button button--outline">Support Us</button>
             </li>

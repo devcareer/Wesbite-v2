@@ -9,6 +9,7 @@ nav {
     text-decoration: none;
     color: $secondaryColor;
     cursor: pointer;
+    transition: 300ms ease-in-out;
 
     &:hover {
       color: $primaryColor;
@@ -101,6 +102,7 @@ nav {
     margin: 0;
     padding: 60px 10px;
     background: $secondaryColor;
+    width: 100%;
     a {
       color: white;
     }

@@ -8,23 +8,31 @@
         margin-bottom: 5rem;
     }
 
+    &__margin--top {
+        margin-top: 6rem;
+        @include media-breakpoint-down(sm) {
+            margin-top: 0px;
+          }
+    }
+
     &__title {
         width: 100%;
         font-style: normal;
         font-weight: bold;
         font-size: 48px;
-        color: #1F1F1F;
+        color: $secondaryColor;
 
         &--primary {
-            color: #05b993;
+            color: $primaryColor;
         }
     }
 
     &__subtitle {
-        width: 100%;
+        // width: 100%;
         font-style: normal;
-        font-weight: normal;
+        font-weight: 400;
         font-size: 24px;
+        line-height: 34.13px;
     }
 
     &__image {
