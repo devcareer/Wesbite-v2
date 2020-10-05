@@ -3,9 +3,9 @@ import DefaultLayout from "../layouts/DefaultLayout";
 import Hero from "../components/Hero";
 import Gallery from "../components/Gallery";
 import { gallery } from "../data/GalleryData";
-import "../../src/assets/scss/app.scss"
 
-export default function HotShots() {
+
+export default function GalleryImg() {
   return (
     <DefaultLayout>
     <Hero title="Gallery" />
@@ -22,7 +22,7 @@ export default function HotShots() {
       <div className="row">
         {gallery.map((img) => {
           return (
-            <Gallery
+            <GalleryImg
               key={img.text}
               col={img.col}
               src={img.src}
