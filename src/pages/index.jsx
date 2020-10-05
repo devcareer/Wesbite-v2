@@ -9,12 +9,11 @@ export default function Home() {
     <DefaultLayout>
       <div className="home">
        <Showcase />
-       <Midsection />
        <div className="clearfix"></div>
        
         <section className="home__exists">
           <div className="container">
-              
+       <Midsection />            
           </div>
         </section>
       </div>

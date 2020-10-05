@@ -32,25 +32,6 @@ const Showcase = () => {
           </div>
         </div>
 
-        {/* This is suppose to be my part Bernard, so i commented it out */}
-        {/*<div className="container">
-          <div className="goal">
-            <div className="goal__header">
-              <p>Become a developer</p>
-              <span>in 3 Months</span>
-            </div>
-            <div className="goal__para">
-              <p>
-                Our program is full time and lasts 3 months, you're welcome to
-                apply if you currently do not have a full time dedication to
-                something else.
-              </p>
-            </div>
-          </div>
-        </div>
-  */}
-
-
   </div>
     </section>
   )

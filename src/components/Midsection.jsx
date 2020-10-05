@@ -8,14 +8,14 @@ export default function Midsection() {
                         {/* The first row */}
                         <div className="row1 row">
                             <div className="row1__header col-12 col-lg-6">
-                                <h1 style={{fontSize: 35}}>
+                                <h1 style={{fontSize: 48, textAlign:"center"}}>
                                     <span>Become a developer</span><br/>
                                     <span style={{color: "#05B993"}}>in 3 Months</span>
                                 </h1>
                             </div>
 
                             <div className="row1__first col-12 col-lg-6">
-                                <p style={{paddingTop: "1rem", lineHeight: 1.5, width: "100%"}}>
+                                <p>
                                 Our program is full time and lasts 3 months,<br/>
                                 you're welcome to apply if you currently do not<br/>
                                 have a full time dedication to something else.<br/>
@@ -26,11 +26,11 @@ export default function Midsection() {
                         {/*The second row */}
 
                         <div className="row2 row">
-                            <div className="row2__part1 col-12 col-lg-4">
-                                    <p className="row2__part1__p">We are raising world 
+                            <div className="row2__part1 col-12 col-lg-4 col-md-12 col-sm-12 col-xs-12">
+                                    <p className="row2__part1__p" style={{fontSize:"18px"}}>We are raising world 
                                     class developers</p>
 
-                                    <h2>Why we exist</h2>
+                                    <h2 style={{fontSize:"32px", fontWeight:"700"}}>Why we exist</h2>
 
                                     <div className="row2__part1__roll">
                                        <p>
@@ -83,8 +83,8 @@ export default function Midsection() {
 
                             <div className="container">
                                 <div className="row3 row">
-                                <div className="row3__frontend col-12 col-lg-3">
-                                    <h4 style={{paddingLeft: "1.5rem"}}>Frontend Development</h4>
+                                <div className="row3__frontend col-12 col-lg-3 mb-md-5 mb-sm-5 mb-5">
+                                    <h4>Frontend Development</h4>
                                     <ul>
                                         <li>React</li>
                                         <li>Html/CSS</li>
@@ -92,8 +92,8 @@ export default function Midsection() {
                                     </ul>
                                 </div>
 
-                                <div className="row3__backend col-12 col-lg-3">
-                                     <h4 style={{paddingLeft: "1.5rem"}}>Backend Development</h4>
+                                <div className="row3__backend col-12 col-lg-3 mb-md-5 mb-sm-5 mb-5">
+                                     <h4>Backend Development</h4>
                                     <ul>
                                         <li>Node</li>
                                         <li>Express</li>
@@ -102,8 +102,8 @@ export default function Midsection() {
                                     </ul>
                                 </div>
 
-                                <div className="row3__mobile col-12 col-lg-3">
-                                    <h4 style={{paddingLeft: "1.5rem"}}>Mobile Development</h4>
+                                <div className="row3__mobile col-12 col-lg-3 mb-md-5 mb-sm-5 mb-sm-5 mb-5">
+                                    <h4>Mobile Development</h4>
                                     <ul>
                                         <li>Flutter</li>
                                     </ul>
