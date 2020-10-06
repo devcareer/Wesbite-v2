@@ -3,9 +3,7 @@
   max-width: 100%;
   min-height: 101px;
   margin: 0 auto;
-
   background: $white;
-
   box-sizing: border-box;
 
   &:first-of-type {
@@ -19,7 +17,6 @@
 
 .top-div {
   padding: 0 1em;
-
   border: 1px solid $secondaryColor;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.1);
 

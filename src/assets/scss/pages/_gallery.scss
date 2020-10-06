@@ -1,16 +1,20 @@
 .gallery{
+    padding-bottom: 65px;
     &__desc{
         color: $primaryColor;
-        font-weight: 500;
+        font-size: 18px;
+        margin-bottom: 50px;
+        padding-left: 15px;
+        margin-top: 5px;
     }
     &__page-desc{
-        font-family: Rubik;
-        font-style: normal;
-        font-weight: normal;
+        margin-top: 75px;
         font-size: 24px;
         text-align: center;
     }
 }
-
+img{
+    height: 361px;
+}
 
 

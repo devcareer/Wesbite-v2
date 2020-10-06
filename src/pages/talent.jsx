@@ -1,6 +1,6 @@
 import React from "react"
 import DefaultLayout from "../layouts/DefaultLayout"
-import CandidateCard from "../components/talent/CandidateCard"
+import CandidateCard from "../components/pages/talent/CandidateCard"
 import Hero from "../components/Hero"
 import ArrowForward from "@material-ui/icons/ArrowForward"
 import ArrowBack from "@material-ui/icons/ArrowBack"
