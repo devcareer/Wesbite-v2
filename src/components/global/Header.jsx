@@ -5,17 +5,18 @@ import "../../assets/scss/app.scss"
 function Header() {
   const [mobileNav, setMobileNav] = useState(false)
   const [navHiddenClass, setNavHiddenClass] = useState("")
+  const [closeButton, setCloseButton] = useState(false)
 
   return (
     <nav>
       <div className="header-content">
         <Link to="/">
-        <img
-          src="https://res.cloudinary.com/dctmgu7mb/image/upload/v1601332391/devLogo_ocngza.png"
-          alt="DevCareer_Logo"
-          className="header-content__image"
+          <img
+            src="https://res.cloudinary.com/dctmgu7mb/image/upload/v1601332391/devLogo_ocngza.png"
+            alt="DevCareer_Logo"
+            className="header-content__image"
           />
-          </Link>
+        </Link>
 
         <ul className="nav-links-desktop">
           <li>
@@ -34,13 +35,18 @@ function Header() {
             <Link to="/talent">Talents</Link>
           </li>
           <li>
-            <Link to="/support-us"><button className="button button--outline">Support Us</button></Link>
+            <Link to="/support-us">
+              <button className="button button--outline">Support Us</button>
+            </Link>
           </li>
         </ul>
 
         <div
           onClick={() => {
             setMobileNav(!mobileNav)
+            if (!closeButton)
+              setTimeout(() => setCloseButton(!closeButton), 400)
+            else setCloseButton(!closeButton)
             if (mobileNav) {
               setNavHiddenClass("slide-out-left")
               document.body.style.position = ""
@@ -50,6 +56,9 @@ function Header() {
           }}
           onKeyDown={() => {
             setMobileNav(!mobileNav)
+            if (!closeButton)
+              setTimeout(() => setCloseButton(!closeButton), 400)
+            else setCloseButton(!closeButton)
             if (mobileNav) {
               setNavHiddenClass("slide-out-left")
               document.body.style.position = ""
@@ -61,7 +70,7 @@ function Header() {
           role="button"
           tabIndex={0}
         >
-          {!mobileNav ? (
+          {!closeButton ? (
             <img
               src="https://res.cloudinary.com/drqltx8ye/image/upload/v1601483589/menu_1_l4desc.svg"
               alt="Hamburger icon"
