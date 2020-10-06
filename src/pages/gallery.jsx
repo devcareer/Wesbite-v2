@@ -11,7 +11,7 @@ export default function Gallery() {
       <div className="container mt-5">
         <div className="row">
           <div className="col-12 col-sm-7 offset-sm-3 mb-5">
-            <p className="page-desc">
+            <p className="gallery__page-desc">
             Lorem ipsum dolor sit amet, consectetur adipiscing elit.
             Euismod donec amet tempor ac. A nunc in elit morbi 
             tortor  ut faucibus. Egestas.

@@ -13,6 +13,7 @@ export default function AccordionCard({ question, answer, content }) {
   return (
     <section className="accordion">
       <div
+        onClick={handleExpand}
         style={{
           borderRadius: expand ? "8px 8px 0 0" : "8px",
           border: expand && "1px solid #05b993",
@@ -32,7 +33,7 @@ export default function AccordionCard({ question, answer, content }) {
             style={{
               color: expand && "#ffffff",
             }}
-            onClick={handleExpand}
+           
             className="top-div__btn"
           >
             {expand ? <ExpandLessIcon /> : <ExpandMoreIcon />}

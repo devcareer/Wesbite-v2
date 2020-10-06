@@ -1,12 +1,16 @@
-.desc{
-    color: $primaryColor;
-    font-weight: 500;
+.gallery{
+    &__desc{
+        color: $primaryColor;
+        font-weight: 500;
+    }
+    &__page-desc{
+        font-family: Rubik;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 24px;
+        text-align: center;
+    }
 }
 
-.page-desc{
-    font-family: Rubik;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 24px;
-    text-align: center;
-}
+
+
