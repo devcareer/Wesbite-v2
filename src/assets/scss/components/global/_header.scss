@@ -5,13 +5,16 @@ nav {
   min-height: 10vh;
   background: $white;
 
-  li,a {
+  li,
+  a {
     text-decoration: none;
     color: $secondaryColor;
     cursor: pointer;
     transition: 300ms ease-in-out;
 
-    &:hover, &:focus, &:focus-within {
+    &:hover,
+    &:focus,
+    &:focus-within {
       color: $primaryColor;
       text-decoration: none;
     }
@@ -106,8 +109,9 @@ nav {
     padding: 60px 10px;
     background: $secondaryColor;
     width: 100%;
+
     a {
-      color: white;
+      color: $white;
       width: 100%;
     }
 
@@ -116,8 +120,12 @@ nav {
       padding: 15px 20px;
       font-weight: 500;
 
-      button {
-        font-weight: 500;
+      .support-link {
+        width: unset;
+        
+        button {
+          font-weight: 500;
+        }
       }
     }
   }
