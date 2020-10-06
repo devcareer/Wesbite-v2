@@ -9,30 +9,32 @@ function Header() {
   return (
     <nav>
       <div className="header-content">
+        <Link to="/">
         <img
           src="https://res.cloudinary.com/dctmgu7mb/image/upload/v1601332391/devLogo_ocngza.png"
           alt="DevCareer_Logo"
           className="header-content__image"
-        />
+          />
+          </Link>
 
         <ul className="nav-links-desktop">
           <li>
-            <Link to="#">Home</Link>
+            <Link to="/">Home</Link>
           </li>
           <li>
-            <Link to="#">About</Link>
+            <Link to="/about-us">About</Link>
           </li>
           <li>
-            <Link to="#">Gallery</Link>
+            <Link to="/gallery">Gallery</Link>
           </li>
           <li>
             <Link to="#">Resources</Link>
           </li>
           <li>
-            <Link to="#">Talents</Link>
+            <Link to="/talent">Talents</Link>
           </li>
           <li>
-            <button className="button button--outline">Support Us</button>
+            <Link to="/support-us"><button className="button button--outline">Support Us</button></Link>
           </li>
         </ul>
 
@@ -81,19 +83,19 @@ function Header() {
         >
           <ul className="mobile-nav__links">
             <li>
-              <Link to="#">Home</Link>
+              <Link to="/">Home</Link>
             </li>
             <li>
-              <Link to="#">About</Link>
+              <Link to="/about-us">About</Link>
             </li>
             <li>
-              <Link to="#">Gallery</Link>
+              <Link to="/gallery">Gallery</Link>
             </li>
             <li>
               <Link to="#">Resources</Link>
             </li>
             <li>
-              <Link to="#">Talents</Link>
+              <Link to="/talent">Talents</Link>
             </li>
             <li>
               <button className="button button--outline">Support Us</button>

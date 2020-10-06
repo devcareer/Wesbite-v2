@@ -11,8 +11,9 @@ nav {
     cursor: pointer;
     transition: 300ms ease-in-out;
 
-    &:hover {
+    &:hover, &:focus, &:focus-within {
       color: $primaryColor;
+      text-decoration: none;
     }
   }
 
