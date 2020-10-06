@@ -8,16 +8,21 @@
 
 // COMPONENTS
 @import "./components/global/header";
-@import "./components/global/button"; 
-@import "./components/global/hero"; 
-@import "./components/global/footer"; 
+@import "./components/global/footer";
+@import "./components/talent/candidatecard";
+
+//PAGES
+
+@import "./components/global/button";
+@import "./components/global/hero";
+@import "./components/global/footer";
 @import "./components/talent/candidatecard";
 @import "./components/faq/accordion";
 
 //PAGES
 @import "./pages/home";
 @import "./pages/faq";
+@import "./pages/talent";
 @import "./pages/gallery";
 @import "./pages/support";
 @import "./pages/about";
-
