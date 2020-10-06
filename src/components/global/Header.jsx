@@ -107,7 +107,9 @@ function Header() {
               <Link to="/talent">Talents</Link>
             </li>
             <li>
-              <button className="button button--outline">Support Us</button>
+              <Link to="/support-us">
+                <button className="button button--outline">Support Us</button>
+              </Link>
             </li>
           </ul>
         </div>
