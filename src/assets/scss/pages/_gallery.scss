@@ -1,12 +1,23 @@
-.desc{
-    color: $primaryColor;
-    font-weight: 500;
+.gallery{
+    padding-bottom: 65px;
+    &__desc{
+        color: $primaryColor;
+        font-size: 18px;
+        margin-bottom: 50px;
+        padding-left: 15px;
+        margin-top: 5px;
+    }
+    &__page-desc{
+        margin-top: 75px;
+        font-size: 24px;
+        text-align: center;
+        line-height: 129.2%;
+    }
+    &__img{
+        height: 361px;
+        color: #c1c1c1;
+    }
 }
 
-.page-desc{
-    font-family: Rubik;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 24px;
-    text-align: center;
-}
+
+
