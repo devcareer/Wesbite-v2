@@ -28,7 +28,7 @@ function Header() {
             <Link to="/gallery">Gallery</Link>
           </li>
           <li>
-            <Link to="#">Resources</Link>
+            <Link to="/#">Resources</Link>
           </li>
           <li>
             <Link to="/talent">Talents</Link>
@@ -92,7 +92,7 @@ function Header() {
               <Link to="/gallery">Gallery</Link>
             </li>
             <li>
-              <Link to="#">Resources</Link>
+              <Link to="/#">Resources</Link>
             </li>
             <li>
               <Link to="/talent">Talents</Link>
