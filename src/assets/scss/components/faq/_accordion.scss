@@ -13,6 +13,10 @@
 
 .top-div-active {
   background-color: $primaryColor;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
 }
 
 .top-div {
@@ -24,6 +28,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
+    flex: 1;
   }
   &:hover {
     cursor: pointer;
