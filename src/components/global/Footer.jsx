@@ -6,22 +6,22 @@ function Footer() {
   const footerLinks = [
     {
       text: "About Us",
-      location: "./pages/about",
+      location: "/about-us",
       class: "link",
     },
     {
       text: "FAQ's",
-      location: "./pages/faq",
+      location: "/faq",
       class: "link",
     },
     {
       text: "Gallery",
-      location: "./pages/gallery",
+      location: "/gallery",
       class: "link",
     },
     {
       text: "Contact Us",
-      location: "./pages/contact",
+      location: "/contact-us",
       class: "link",
     },
   ]
