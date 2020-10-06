@@ -1,5 +1,6 @@
 // CORE
 @import "bootstrap/scss/bootstrap-grid.scss";
+@import "bootstrap/scss/bootstrap.scss";
 @import "./core/overwrite";
 @import "./core/variables";
 @import "./core/font";
@@ -22,3 +23,6 @@
 @import "./pages/home";
 @import "./pages/faq";
 @import "./pages/talent";
+@import "./pages/gallery";
+@import "./pages/support";
+@import "./pages/about";

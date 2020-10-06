@@ -5,7 +5,8 @@ import Hero from "../components/hero"
 import ArrowForward from "@material-ui/icons/ArrowForward"
 import ArrowBack from "@material-ui/icons/ArrowBack"
 
-function peakperf() {
+function Talent() {
+  // dummy data
   const data = [
     {
       id: 1,
@@ -21,7 +22,7 @@ function peakperf() {
       ],
     },
     {
-      id: 1,
+      id: 2,
       image:
         "https://res.cloudinary.com/gfellah45/image/upload/v1601374966/img/pictures_tdnnso.png",
       name: "Okoye CB",
@@ -31,7 +32,7 @@ function peakperf() {
       ],
     },
     {
-      id: 1,
+      id: 3,
       image:
         "https://res.cloudinary.com/gfellah45/image/upload/v1601374966/img/pictures_tdnnso.png",
       name: "Okoye CB",
@@ -41,7 +42,7 @@ function peakperf() {
       ],
     },
     {
-      id: 1,
+      id: 4,
       image:
         "https://res.cloudinary.com/gfellah45/image/upload/v1601374966/img/pictures_tdnnso.png",
       name: "Okoye CB",
@@ -51,7 +52,7 @@ function peakperf() {
       ],
     },
     {
-      id: 1,
+      id: 5,
       image:
         "https://res.cloudinary.com/gfellah45/image/upload/v1601374966/img/pictures_tdnnso.png",
       name: "Okoye CB",
@@ -61,7 +62,7 @@ function peakperf() {
       ],
     },
     {
-      id: 1,
+      id: 6,
       image:
         "https://res.cloudinary.com/gfellah45/image/upload/v1601374966/img/pictures_tdnnso.png",
       name: "Okoye CB",
@@ -108,4 +109,4 @@ function peakperf() {
   )
 }
 
-export default peakperf
+export default Talent
