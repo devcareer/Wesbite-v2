@@ -1,5 +1,6 @@
 // CORE
 @import "bootstrap/scss/bootstrap-grid.scss";
+@import "bootstrap/scss/bootstrap.scss";
 @import "./core/overwrite";
 @import "./core/variables";
 @import "./core/font";
@@ -7,6 +8,11 @@
 
 // COMPONENTS
 @import "./components/global/header";
+@import "./components/global/footer";
+@import "./components/talent/candidatecard";
+
+//PAGES
+
 @import "./components/global/button";
 @import "./components/global/hero";
 @import "./components/global/footer";
@@ -17,4 +23,7 @@
 //PAGES
 @import "./pages/home";
 @import "./pages/faq";
+@import "./pages/talent";
 @import "./pages/gallery";
+@import "./pages/support";
+@import "./pages/about";

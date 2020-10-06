@@ -1,4 +1,5 @@
 import React, { useState } from "react"
+import { Link } from "gatsby"
 import "../../assets/scss/app.scss"
 
 function Header() {
@@ -15,11 +16,21 @@ function Header() {
         />
 
         <ul className="nav-links-desktop">
-          <li>Home</li>
-          <li>About</li>
-          <li>Gallery</li>
-          <li>Resources</li>
-          <li>Talents</li>
+          <li>
+            <Link to="#">Home</Link>
+          </li>
+          <li>
+            <Link to="#">About</Link>
+          </li>
+          <li>
+            <Link to="#">Gallery</Link>
+          </li>
+          <li>
+            <Link to="#">Resources</Link>
+          </li>
+          <li>
+            <Link to="#">Talents</Link>
+          </li>
           <li>
             <button className="button button--outline">Support Us</button>
           </li>
@@ -28,9 +39,25 @@ function Header() {
         <div
           onClick={() => {
             setMobileNav(!mobileNav)
-            if (mobileNav) setNavHiddenClass("slide-out-left")
+            if (mobileNav) {
+              setNavHiddenClass("slide-out-left")
+              document.body.style.position = ""
+            } else {
+              document.body.style.position = "fixed"
+            }
+          }}
+          onKeyDown={() => {
+            setMobileNav(!mobileNav)
+            if (mobileNav) {
+              setNavHiddenClass("slide-out-left")
+              document.body.style.position = ""
+            } else {
+              document.body.style.position = "fixed"
+            }
           }}
           className="mobile-nav-toggle"
+          role="button"
+          tabIndex={0}
         >
           {!mobileNav ? (
             <img
@@ -40,7 +67,7 @@ function Header() {
             />
           ) : (
             <img
-              src="https://res.cloudinary.com/drqltx8ye/image/upload/v1601484000/close_1_bx0uzk.svg"
+              src="https://res.cloudinary.com/drqltx8ye/image/upload/v1601644095/close_2_vluprf.svg"
               alt="Close icon"
               className="mobile-nav-toggle__close"
             />
@@ -53,11 +80,21 @@ function Header() {
           }`}
         >
           <ul className="mobile-nav__links">
-            <li>Home</li>
-            <li>About</li>
-            <li>Gallery</li>
-            <li>Resources</li>
-            <li>Talents</li>
+            <li>
+              <Link to="#">Home</Link>
+            </li>
+            <li>
+              <Link to="#">About</Link>
+            </li>
+            <li>
+              <Link to="#">Gallery</Link>
+            </li>
+            <li>
+              <Link to="#">Resources</Link>
+            </li>
+            <li>
+              <Link to="#">Talents</Link>
+            </li>
             <li>
               <button className="button button--outline">Support Us</button>
             </li>
