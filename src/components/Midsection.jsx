@@ -8,9 +8,9 @@ export default function Midsection() {
                         {/* The first row */}
                         <div className="row1 row">
                             <div className="row1__header col-12 col-lg-6">
-                                <h1 style={{fontSize: 48, textAlign:"center"}}>
-                                    <span>Become a developer</span><br/>
-                                    <span style={{color: "#05B993"}}>in 3 Months</span>
+                                <h1 style={{fontSize: 48}}>
+                                    <span>Become a developer</span>
+                                    <span style={{color: "#05B993", display:"block"}}>in 3 Months</span>
                                 </h1>
                             </div>
 

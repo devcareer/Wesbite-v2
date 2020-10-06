@@ -39,7 +39,6 @@ const Slider = () => {
             infinite={true}
             dotListClass="custom-dot-list-style"
           >
-            <div className="clearfix"></div>
             <div className="slider">
               <div className="slider__img">
                 <img
