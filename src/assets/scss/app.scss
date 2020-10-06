@@ -7,12 +7,14 @@
 
 // COMPONENTS
 @import "./components/global/header";
-@import "./components/global/button"; 
-@import "./components/global/hero"; 
-@import "./components/global/footer"; 
+@import "./components/global/button";
+@import "./components/global/hero";
+@import "./components/global/footer";
 @import "./components/talent/candidatecard";
 @import "./components/faq/accordion";
+@import "./components/gallery/cards";
 
 //PAGES
 @import "./pages/home";
 @import "./pages/faq";
+@import "./pages/gallery";
