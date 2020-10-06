@@ -2,6 +2,7 @@ import React from "react"
 import DefaultLayout from "../layouts/DefaultLayout"
 import CandidateCard from "../components/talent/CandidateCard"
 import Hero from "../components/global/Hero";
+import CandidateCard from "../components/pages/talent/CandidateCard"
 import ArrowForward from "@material-ui/icons/ArrowForward"
 import ArrowBack from "@material-ui/icons/ArrowBack"
 import data from "../data/TalentData"
