@@ -11,17 +11,10 @@ export default function Gallery() {
       <div className="container gallery">
         <div className="row">
           <div className="col-12 col-sm-7 offset-sm-3 mb-5">
-<<<<<<< HEAD
-            <p className="page-desc">
+            <p className="gallery__page-desc">
               Lorem ipsum dolor sit amet, consectetur adipiscing elit. Euismod
               donec amet tempor ac. A nunc in elit morbi tortor ut faucibus.
               Egestas.
-=======
-            <p className="gallery__page-desc">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-            Euismod donec amet tempor ac. A nunc in elit morbi 
-            tortor  ut faucibus. Egestas.
->>>>>>> fc43e2b7f8395c3cb0f29eb83547d0d811bc285c
             </p>
           </div>
         </div>
