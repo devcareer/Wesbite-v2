@@ -1,7 +1,6 @@
 import React from "react"
 import DefaultLayout from "../layouts/DefaultLayout"
 import Hero from "../components/global/Hero";
-import Accordion from "../components/Accordion"
 import Accordion from "../components/pages/faq/Accordion"
 
 export default function Home() {
