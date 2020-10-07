@@ -6,7 +6,7 @@ function Info() {
       <div className="container">
         <div className="info__header">
           <h3>
-            Your journey of a thousand miles, starts with a one tweet pitch..
+            Your journey of a thousand miless, starts with a one tweet pitch..
           </h3>
         </div>
         <div className="info__cards">
