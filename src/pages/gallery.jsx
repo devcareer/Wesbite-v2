@@ -1,6 +1,6 @@
 import React from "react"
 import DefaultLayout from "../layouts/DefaultLayout"
-import Hero from "../components/Hero"
+import Hero from "../components/global/Hero";
 import GalleryImgs from "../components/pages/gallery/GalleryImgs"
 import { gallery } from "../data/GalleryData"
 
