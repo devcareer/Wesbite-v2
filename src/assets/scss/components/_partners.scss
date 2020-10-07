@@ -1,0 +1,210 @@
+.hubs {
+    text-align: center;
+    margin-bottom: 87px;
+
+    font-family: Rubik;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 38px;
+    /* identical to box height */
+
+
+    /* Secondary Color */
+
+    color: #1F1F1F;
+}
+
+.partner-two-aimtoget {
+
+    width: 102px;
+    height: 102px;
+}
+
+.partner-two-bongohive {
+    width: 98px;
+    height: 98px;
+}
+
+.partner-two-seventwenty {
+    width: 120px;
+    height: 45px;
+    margin-top: 25px;
+}
+
+.partner-two-impacthub {
+    width: 96px;
+    height: 96px;
+}
+
+.partner-two {
+    padding-left: 150px;
+    padding-right: 150px;
+    margin-top: 70px;
+}
+
+
+.partner-three {
+    padding-left: 200px;
+    padding-right: 200px;
+    margin-bottom: 100px;
+    margin-top: 70px;
+}
+
+
+.sponsors {
+    margin-left: 200px;
+    margin-right: 200px;
+    margin-bottom: 100px;
+    margin-top: 70px;
+}
+
+.sponsors_text {
+    text-align: center;
+    margin-bottom: 100px;
+    font-family: Rubik;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 38px;
+    color: #1F1F1F;
+}
+
+.sponsors-one-revin {
+    width: 220.87px;
+    height: 36px;
+}
+
+.sponsors-one-kuda {
+    width: 159.61px;
+
+
+}
+
+.sponsors-one-gofundme {
+    width: 159.61px;
+    height: 110px;
+}
+
+.sponsor-two-piss {
+    width: 93px;
+    height: 93px;
+}
+
+.sponsor-two-isam {
+    width: 109.8px;
+    height: 71px;
+  
+}
+
+.sponsor-two-eden {
+    width: 113px;
+    height: 113px;
+}
+
+
+
+@include media-breakpoint-down (md){
+    .sponsors__cards{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        grid-gap: 2rem;
+
+        .partner-two{
+            padding: 0;
+        }
+        .partner-three{
+            padding: 0;
+        }
+    }
+}
+
+@include media-breakpoint-down (sm){
+    .sponsors__cards{
+        grid-template-columns: repeat(1, 1fr);
+        width: 100%;
+        place-items: center;
+
+        .partner-one{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            .col{
+                margin-bottom: 2rem;
+            }
+        }
+        .partner-two{
+            display: grid;
+            grid-template-columns: repeat(2,1fr);
+            grid-column-gap:1rem ;
+            .col{
+                margin: 1rem 0;
+            }
+        }
+        .partner-three{
+           display: block !important;
+           margin: 2rem auto;
+           .col{
+               text-align: center;
+               width: 100%;
+               display: flex;
+               justify-content: center;
+               align-items: center;
+               flex-direction: column;
+           }
+        }
+
+        .sponsors-one{
+            display: grid;
+            grid-template-columns: repeat(2,1fr);
+            .col:nth-child(2){
+                margin-top: -1.5rem;
+                margin-left: 1rem;
+            }
+        }
+    }
+
+}
+
+
+
+@include media-breakpoint-down (xs){
+    .sponsors__cards{
+        .partner-one{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            .col{
+                margin-bottom: 2rem;
+            }
+        }
+        .partner-two{         
+            grid-template-columns: repeat(1,1fr);
+            place-items: center;
+            .col{
+                margin: 1rem 0;
+            }
+        }
+
+        .sponsors-one{
+            display: grid;
+            grid-template-columns: repeat(1,1fr);
+            place-items: center;
+            .col:nth-child(2){
+                margin-top: 1.5rem;
+                margin-left: 0;
+            }
+            }
+            .sponsors-two{
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                flex-direction: column;
+                .col{
+                    margin: 1.5rem;
+                }
+            }
+        }
+    }

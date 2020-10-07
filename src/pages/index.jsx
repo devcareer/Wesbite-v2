@@ -4,7 +4,7 @@ import Slider from "../components/Slider"
 import Midsection from "../components/Midsection"
 import DefaultLayout from "../layouts/DefaultLayout"
 import Info from "../components/Info"
-
+import Partners from "../components/Partners";
 export default function Home() {
   return (
     <DefaultLayout>
@@ -18,6 +18,7 @@ export default function Home() {
       <Info />
           </div>
         </section>
+        <Partners />
       </div>
       <Slider />
     </DefaultLayout>
