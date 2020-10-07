@@ -13,7 +13,14 @@ export default function AccordionCard({ question, answer, content }) {
   return (
     <section className="accordion">
       <div
+<<<<<<< HEAD:src/components/AccordionCard.jsx
         onClick={handleExpand}
+=======
+        role="button"
+        onClick={handleExpand}
+        onKeyDown={handleExpand}
+        tabIndex={0}
+>>>>>>> fc43e2b7f8395c3cb0f29eb83547d0d811bc285c:src/components/pages/faq/AccordionCard.jsx
         style={{
           borderRadius: expand ? "8px 8px 0 0" : "8px",
           border: expand && "1px solid #05b993",

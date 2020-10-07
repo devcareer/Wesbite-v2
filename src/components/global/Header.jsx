@@ -5,40 +5,48 @@ import "../../assets/scss/app.scss"
 function Header() {
   const [mobileNav, setMobileNav] = useState(false)
   const [navHiddenClass, setNavHiddenClass] = useState("")
+  const [closeButton, setCloseButton] = useState(false)
 
   return (
     <nav>
       <div className="header-content">
-        <img
-          src="https://res.cloudinary.com/dctmgu7mb/image/upload/v1601332391/devLogo_ocngza.png"
-          alt="DevCareer_Logo"
-          className="header-content__image"
-        />
+        <Link to="/">
+          <img
+            src="https://res.cloudinary.com/dctmgu7mb/image/upload/v1601332391/devLogo_ocngza.png"
+            alt="DevCareer_Logo"
+            className="header-content__image"
+          />
+        </Link>
 
         <ul className="nav-links-desktop">
           <li>
-            <Link to="#">Home</Link>
+            <Link to="/">Home</Link>
           </li>
           <li>
-            <Link to="#">About</Link>
+            <Link to="/about-us">About</Link>
           </li>
           <li>
-            <Link to="#">Gallery</Link>
+            <Link to="/gallery">Gallery</Link>
           </li>
           <li>
-            <Link to="#">Resources</Link>
+            <Link to="/#">Resources</Link>
           </li>
           <li>
-            <Link to="#">Talents</Link>
+            <Link to="/talent">Talents</Link>
           </li>
           <li>
-            <button className="button button--outline">Support Us</button>
+            <Link to="/support-us">
+              <button className="button button--outline">Support Us</button>
+            </Link>
           </li>
         </ul>
 
         <div
           onClick={() => {
             setMobileNav(!mobileNav)
+            if (!closeButton)
+              setTimeout(() => setCloseButton(!closeButton), 400)
+            else setCloseButton(!closeButton)
             if (mobileNav) {
               setNavHiddenClass("slide-out-left")
               document.body.style.position = ""
@@ -48,6 +56,9 @@ function Header() {
           }}
           onKeyDown={() => {
             setMobileNav(!mobileNav)
+            if (!closeButton)
+              setTimeout(() => setCloseButton(!closeButton), 400)
+            else setCloseButton(!closeButton)
             if (mobileNav) {
               setNavHiddenClass("slide-out-left")
               document.body.style.position = ""
@@ -59,7 +70,7 @@ function Header() {
           role="button"
           tabIndex={0}
         >
-          {!mobileNav ? (
+          {!closeButton ? (
             <img
               src="https://res.cloudinary.com/drqltx8ye/image/upload/v1601483589/menu_1_l4desc.svg"
               alt="Hamburger icon"
@@ -81,22 +92,24 @@ function Header() {
         >
           <ul className="mobile-nav__links">
             <li>
-              <Link to="#">Home</Link>
+              <Link to="/">Home</Link>
             </li>
             <li>
-              <Link to="#">About</Link>
+              <Link to="/about-us">About</Link>
             </li>
             <li>
-              <Link to="#">Gallery</Link>
+              <Link to="/gallery">Gallery</Link>
             </li>
             <li>
-              <Link to="#">Resources</Link>
+              <Link to="/#">Resources</Link>
             </li>
             <li>
-              <Link to="#">Talents</Link>
+              <Link to="/talent">Talents</Link>
             </li>
             <li>
-              <button className="button button--outline">Support Us</button>
+              <Link className="support-link" to="/support-us">
+                <button className="button button--outline">Support Us</button>
+              </Link>
             </li>
           </ul>
         </div>

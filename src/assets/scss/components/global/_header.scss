@@ -5,14 +5,18 @@ nav {
   min-height: 10vh;
   background: $white;
 
-  li,a {
+  li,
+  a {
     text-decoration: none;
     color: $secondaryColor;
     cursor: pointer;
     transition: 300ms ease-in-out;
 
-    &:hover {
+    &:hover,
+    &:focus,
+    &:focus-within {
       color: $primaryColor;
+      text-decoration: none;
     }
   }
 
@@ -62,6 +66,8 @@ nav {
   display: none;
   z-index: 10;
   color: $white;
+  outline: 0;
+
   img {
     transition: all 0.2s ease;
   }
@@ -103,8 +109,10 @@ nav {
     padding: 60px 10px;
     background: $secondaryColor;
     width: 100%;
+
     a {
-      color: white;
+      color: $white;
+      width: 100%;
     }
 
     li {
@@ -112,8 +120,12 @@ nav {
       padding: 15px 20px;
       font-weight: 500;
 
-      button {
-        font-weight: 500;
+      .support-link {
+        width: unset;
+        
+        button {
+          font-weight: 500;
+        }
       }
     }
   }
