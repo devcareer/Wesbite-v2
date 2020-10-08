@@ -1,6 +1,8 @@
 const ProjectsData = [
   {
-    img: "",
+    id: 1,
+    img: "../assets/images/proj-v2.png",
+    img2: "../assets/images/project-v1.png",
     sub: "Web Development",
     heading: "Platr",
     desc: `Platr is an online food ordering and delivery marketplace in Nigerian
@@ -9,7 +11,9 @@ const ProjectsData = [
     stress-free. `,
   },
   {
-    img: "",
+    id: 2,
+    img: "../assets/images/proj-v2.png",
+    img2: "../assets/images/project-v1.png",
     sub: "Front end Development",
     heading: "Dev Career",
     desc: `Lorem ipsum dolor sit amet, consectetur adipiscing
@@ -19,7 +23,9 @@ const ProjectsData = [
     ultrices nam amet. Sed et massa eros, `,
   },
   {
-    img: "",
+    id: 3,
+    img: "../assets/images/proj-v2.png",
+    img2: "../assets/images/project-v1.png",
     sub: "Back end Development",
     heading: "Dev Career",
     desc: `Lorem ipsum dolor sit amet, consectetur adipiscing

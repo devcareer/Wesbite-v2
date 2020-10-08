@@ -2,9 +2,15 @@ import React from "react"
 
 function ImageCard({ imgOne, imgTwo, background }) {
   return (
-    <div style={background} className="project-card__img">
-      <img className="project-card__img--firstImg" src={imgOne} alt="food" />
-      <img className="project-card__img--secondImg" src={imgTwo} alt="food" />
+    <div>
+      <div style={background} className="project__img">
+        <p className="project__img__one">
+          <img src={imgOne} alt="one" />
+        </p>
+        <p className="project__img__two">
+          <img src={imgTwo} alt="two" />
+        </p>
+      </div>
     </div>
   )
 }
