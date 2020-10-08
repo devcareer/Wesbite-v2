@@ -10,6 +10,7 @@
 @import "./components/global/header";
 @import "./components/global/footer";
 @import "./components/talent/candidatecard";
+@import "./components/project/projectCard";
 
 //PAGES
 
@@ -18,6 +19,7 @@
 @import "./components/global/footer";
 @import "./components/talent/candidatecard";
 @import "./components/faq/accordion";
+@import "./components/gallery/cards";
 
 //PAGES
 @import "./pages/home";
@@ -26,3 +28,4 @@
 @import "./pages/gallery";
 @import "./pages/support";
 @import "./pages/about";
+@import "./pages/project";

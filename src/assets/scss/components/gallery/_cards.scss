@@ -1,0 +1,39 @@
+.row {
+  padding-top: 5em;
+
+  .gallery__col {
+    padding: 0 20px 40px 20px;
+    //background: red;
+
+    .gallery__col:nth-child(1) {
+      background-color: blue;
+    }
+
+    &--description {
+      font-weight: 500;
+      font-size: 24px;
+      line-height: 28px;
+      display: flex;
+      align-items: center;
+      text-align: center;
+      color: $primaryColor;
+
+      @media screen and (max-width: 500px) {
+        font-size: 16px;
+        line-height: 20px;
+      }
+    }
+  }
+
+  .gallery__col .inner {
+    background: #C4C4C4;
+    height: 361px;
+  }
+
+  img {
+    width: 100%;
+    height: 361px;
+    object-fit: cover;
+  }
+
+}
