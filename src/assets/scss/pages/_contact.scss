@@ -1,0 +1,39 @@
+.contact-us__header{
+    height: 100%;
+    background: $primaryColor;
+    color:$white;
+
+    H1{
+        font-size: 2.5rem;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 47px;
+        letter-spacing: 0em;
+    }
+
+
+    &__text{
+        height: 39px;
+        font-size: 1rem;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 19px;
+        letter-spacing: 0em;
+        text-align: center;
+    }
+}
+.contact-us__info{
+    height: 415px;
+    &__text{
+        font-size: 1.25rem;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 38px;
+        letter-spacing: 0em;
+        text-align: center;
+
+        &__link{
+            color: $primaryColor;
+        }
+    }
+}
