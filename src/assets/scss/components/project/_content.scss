@@ -1,0 +1,46 @@
+.project-card {
+  width: 100%;
+  position: relative;
+
+  &__content {
+    width: 100%;
+    padding-top: 30px;
+
+    &--subheading {
+      font-size: 14px;
+      color: $primaryColor;
+    }
+
+    &--heading {
+      padding: 12px 0;
+      line-height: 124.1%;
+      font-weight: 500;
+      font-size: 40px;
+      color: $secondaryColor;
+
+      @media screen and (max-width: 750px) {
+      }
+    }
+
+    &--desc {
+      font-weight: 400;
+      font-size: 20px;
+      color: $secondaryColor;
+      line-height: 125.1%;
+      padding-bottom: 22px;
+
+      @media screen and (max-width: 750px) {
+        font-size: 16px;
+        padding-bottom: 20px;
+      }
+    }
+
+    &--btn {
+      font-size: 16px;
+      line-height: 30px;
+      text-align: center;
+      background-color: $white;
+      color: $primaryColor;
+    }
+  }
+}

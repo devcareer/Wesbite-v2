@@ -10,7 +10,8 @@
 @import "./components/global/header";
 @import "./components/global/footer";
 @import "./components/talent/candidatecard";
-@import "./components/project/projectCard";
+@import "./components/project/content";
+@import "./components/project/imagecard";
 
 //PAGES
 
@@ -28,6 +29,5 @@
 @import "./pages/gallery";
 @import "./pages/support";
 @import "./pages/about";
-@import "./pages/contact";
 @import "./pages/project";
-
+@import "./pages/contact";
