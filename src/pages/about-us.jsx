@@ -1,7 +1,7 @@
 import React from "react"
 import { Link } from "gatsby"
 import DefaultLayout from "../layouts/DefaultLayout"
-import Hero from "../components/Hero"
+import Hero from "../components/global/Hero";
 
 export default function Home() {
   return (
