@@ -18,6 +18,9 @@ nav {
       color: $primaryColor;
       text-decoration: none;
     }
+    &.active{
+      color:$primaryColor
+    }
   }
 
   button {
