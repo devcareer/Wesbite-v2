@@ -1,11 +1,11 @@
 import React, { useState } from "react"
 import { Link } from "gatsby"
-import "../../assets/scss/app.scss"
 
 function Header() {
   const [mobileNav, setMobileNav] = useState(false)
   const [navHiddenClass, setNavHiddenClass] = useState("")
   const [closeButton, setCloseButton] = useState(false)
+  const [dropDown, setDropdown] = useState(false)
 
   return (
     <nav>
@@ -18,24 +18,42 @@ function Header() {
           />
         </Link>
 
-        <ul className="nav-links-desktop">
+        <ul className="nav-link__desktop">
           <li>
-            <Link to="/"activeClassName="active">Home</Link>
+            <Link to="/" activeClassName="active">
+              Home
+            </Link>
           </li>
           <li>
-            <Link to="/about-us"activeClassName="active">About</Link>
+            <Link to="/about-us" activeClassName="active">
+              About
+            </Link>
           </li>
           <li>
-            <Link to="/gallery"activeClassName="active">Gallery</Link>
+            <Link to="/gallery" activeClassName="active">
+              Gallery
+            </Link>
+          </li>
+          <li >
+            <Link to="/#" activeClassName="active">
+              Resources
+            </Link>
+            <ul className="nav-link__dropdown">
+              <li className="nav-link__dropdown-list">
+                <Link to="#">Projects</Link>
+              </li>
+              <li className="nav-link__dropdown-list">
+                <Link to="#">Blogs</Link>
+              </li>
+            </ul>
           </li>
           <li>
-            <Link to="/#"activeClassName="active">Resources</Link>
+            <Link to="/talent" activeClassName="active">
+              Talents
+            </Link>
           </li>
           <li>
-            <Link to="/talent"activeClassName="active">Talents</Link>
-          </li>
-          <li>
-            <Link to="/support-us"activeClassName="active">
+            <Link to="/support-us" activeClassName="active">
               <button className="button button--outline">Support Us</button>
             </Link>
           </li>
@@ -92,22 +110,36 @@ function Header() {
         >
           <ul className="mobile-nav__links">
             <li>
-              <Link to="/" activeClassName="active">Home</Link>
+              <Link to="/" activeClassName="active">
+                Home
+              </Link>
             </li>
             <li>
-              <Link to="/about-us" activeClassName="active">About</Link>
+              <Link to="/about-us" activeClassName="active">
+                About
+              </Link>
             </li>
             <li>
-              <Link to="/gallery" activeClassName="active">Gallery</Link>
+              <Link to="/gallery" activeClassName="active">
+                Gallery
+              </Link>
             </li>
             <li>
-              <Link to="/#" activeClassName="active">Resources</Link>
+              <Link to="/#" activeClassName="active">
+                Resources
+              </Link>
             </li>
             <li>
-              <Link to="/talent" activeClassName="active">Talents</Link>
+              <Link to="/talent" activeClassName="active">
+                Talents
+              </Link>
             </li>
             <li>
-              <Link className="support-link" to="/support-us" activeClassName="active">
+              <Link
+                className="support-link"
+                to="/support-us"
+                activeClassName="active"
+              >
                 <button className="button button--outline">Support Us</button>
               </Link>
             </li>
