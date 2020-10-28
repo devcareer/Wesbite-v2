@@ -20,22 +20,22 @@ function Header() {
 
         <ul className="nav-links-desktop">
           <li>
-            <Link to="/">Home</Link>
+            <Link to="/"activeClassName="active">Home</Link>
           </li>
           <li>
-            <Link to="/about-us">About</Link>
+            <Link to="/about-us"activeClassName="active">About</Link>
           </li>
           <li>
-            <Link to="/gallery">Gallery</Link>
+            <Link to="/gallery"activeClassName="active">Gallery</Link>
           </li>
           <li>
-            <Link to="/#">Resources</Link>
+            <Link to="/#"activeClassName="active">Resources</Link>
           </li>
           <li>
-            <Link to="/talent">Talents</Link>
+            <Link to="/talent"activeClassName="active">Talents</Link>
           </li>
           <li>
-            <Link to="/support-us">
+            <Link to="/support-us"activeClassName="active">
               <button className="button button--outline">Support Us</button>
             </Link>
           </li>
@@ -92,22 +92,22 @@ function Header() {
         >
           <ul className="mobile-nav__links">
             <li>
-              <Link to="/">Home</Link>
+              <Link to="/" activeClassName="active">Home</Link>
             </li>
             <li>
-              <Link to="/about-us">About</Link>
+              <Link to="/about-us" activeClassName="active">About</Link>
             </li>
             <li>
-              <Link to="/gallery">Gallery</Link>
+              <Link to="/gallery" activeClassName="active">Gallery</Link>
             </li>
             <li>
-              <Link to="/#">Resources</Link>
+              <Link to="/#" activeClassName="active">Resources</Link>
             </li>
             <li>
-              <Link to="/talent">Talents</Link>
+              <Link to="/talent" activeClassName="active">Talents</Link>
             </li>
             <li>
-              <Link className="support-link" to="/support-us">
+              <Link className="support-link" to="/support-us" activeClassName="active">
                 <button className="button button--outline">Support Us</button>
               </Link>
             </li>
