@@ -1,11 +1,33 @@
 import React, { useState } from "react"
 import { Link } from "gatsby"
+import { useTransition } from "react-spring"
 
 function Header() {
   const [mobileNav, setMobileNav] = useState(false)
   const [navHiddenClass, setNavHiddenClass] = useState("")
   const [closeButton, setCloseButton] = useState(false)
   const [dropDown, setDropdown] = useState(false)
+  const transitions = useTransition(dropDown, null, {
+    from: { position: "absolute", opacity: 0 },
+    enter: { opacity: 1 },
+    leave: { opacity: 0 },
+  })
+
+  const showDropdown = () => setDropdown(!dropDown)
+
+  const Dropdown = () =>
+    transitions.map(({ item, key, props }) =>
+      item ? (
+        <ul className="nav-link__dropdown">
+          <li className="nav-link__dropdown-list">
+            <Link to="#">Projects</Link>
+          </li>
+          <li className="nav-link__dropdown-list">
+            <Link to="#">Blogs</Link>
+          </li>
+        </ul>
+      ) : null
+    )
 
   return (
     <nav>
@@ -34,18 +56,11 @@ function Header() {
               Gallery
             </Link>
           </li>
-          <li >
-            <Link to="/#" activeClassName="active">
+          <li>
+            <Link to="#" activeClassName="active" onClick={showDropdown}>
               Resources
             </Link>
-            <ul className="nav-link__dropdown">
-              <li className="nav-link__dropdown-list">
-                <Link to="#">Projects</Link>
-              </li>
-              <li className="nav-link__dropdown-list">
-                <Link to="#">Blogs</Link>
-              </li>
-            </ul>
+            <Dropdown />
           </li>
           <li>
             <Link to="/talent" activeClassName="active">
