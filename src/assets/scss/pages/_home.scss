@@ -1,8 +1,81 @@
+// Home page styling
 .home {
-    &__hero {
-        background-color: $white;
+  &__hero {
+    &__title {
+      font-size: 54px;
+      font-weight: 700;
+      color: $primaryColor;
     }
-    &__exists {
-        
+    &__description {
+      font-size: 20px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: 37px;
+      letter-spacing: 0em;
+      text-align: left;
+      margin-bottom: 40px;
+      margin-top: 30px;
     }
+    &__images {
+      position: absolute;
+      right: 0;
+      img {
+        height: 290px;
+        width: 290px;
+        border-radius: 100%;
+        object-fit: cover;
+        border: 10px solid white;
+      }
+      svg {
+        position: absolute;
+        top: 300px;
+        right: 0;
+        animation-name: spin;
+        animation-duration: 5000ms;
+        animation-iteration-count: infinite;
+        animation-timing-function: linear;
+      }
+      &__2 {
+        position: absolute;
+        right: 110px;
+        top: 120px;
+      }
+    }
+    .col-md-5 {
+      position: relative;
+      height: 500px;
+      @include media-breakpoint-down(md) {
+        margin-top: 30px;
+      }
+    }
+  }
+  &__hero-extended {
+    padding: 40px 0;
+    h1 {
+      font-size: 48px;
+      font-style: normal;
+      font-weight: 700;
+      line-height: 64px;
+      text-align: left;
+      color: $secondaryColor;
+      &:last-child {
+        color: $primaryColor;
+      }
+    }
+    p {
+      padding-top: 15px;
+      color: $secondaryColor;
+      font-size: 24px;
+      line-height: 34px;
+    }
+  }
+}
+
+@keyframes spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
 }

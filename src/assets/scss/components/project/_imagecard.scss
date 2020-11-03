@@ -6,6 +6,10 @@
   box-shadow: 0px 4px 16px rgba(0, 0, 0, 0.07);
   background: rgba(235, 33, 136, 0.39);
 
+  img {
+    max-width: 100%;
+  }
+
   &__one {
     position: absolute;
     top: 70px;

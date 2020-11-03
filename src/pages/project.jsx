@@ -1,5 +1,5 @@
 import React from "react"
-import Hero from "../components/Hero"
+import Hero from "../components/global/Hero"
 
 import DefaultLayout from "../layouts/DefaultLayout"
 import ImageCard from "../components/pages/project/ImageCard"
@@ -11,7 +11,7 @@ import ProjectData from "../data/ProjectsData.js"
 function project() {
   return (
     <DefaultLayout>
-      <Hero title="project" />
+      <Hero title="Project" />
       <div className="pb-5">
         <div className="row">
           <div className="row container m-auto">

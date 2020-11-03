@@ -31,19 +31,22 @@ nav {
 
   .header-content {
     background: $white;
-    width: 90%;
+    width: 100%;
     display: flex;
     align-items: center;
     justify-content: space-between;
     min-height: 10vh;
-    padding: 2rem;
+    padding: 1.2rem 2rem;
     color: $secondaryColor;
-    &__image {
-      width: 222px;
-      height: 68.23px;
 
-      @include media-breakpoint-down(sm) {
-        width: 140px;
+    @include media-breakpoint-down(md) {
+      padding: 1.4rem 0.8rem;
+    }
+    &__image {
+      height: 50px;
+
+      @include media-breakpoint-down(md) {
+        width: auto;
         height: 40px;
       }
     }
@@ -73,7 +76,8 @@ nav {
     &__dropdown {
       position: absolute;
       background: #ffffff;
-      right: 24%;
+      right: 0;
+      top: 40px;
       box-shadow: 0px 1px 4px rgba(0, 0, 0, 0.16);
       padding: 0;
       z-index: 1;
@@ -82,7 +86,9 @@ nav {
     &__dropdown-list {
       list-style: none;
       margin-left: 0 !important;
-      padding: 22px 55px;
+      a {
+        padding: 22px 55px;
+      }
       &:not(:first-child) {
         border-top: 1px solid rgba(31, 31, 31, 0.1);
       }
@@ -110,13 +116,13 @@ nav {
     height: 30px;
   }
 
-  @include media-breakpoint-down(sm) {
+  @include media-breakpoint-down(md) {
     display: block;
   }
 }
 
 .mobile-nav {
-  position: absolute;
+  position: fixed;
   left: 0;
   right: 0;
   top: 0;
@@ -158,7 +164,7 @@ nav {
     }
   }
 
-  @include media-breakpoint-up(md) {
+  @include media-breakpoint-up(lg) {
     display: none;
   }
 }
@@ -171,12 +177,14 @@ nav {
  * ---------------------------------------------- */
 
 .slide-in-left {
-  -webkit-animation: slide-in-left 0.5s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
+  -webkit-animation: slide-in-left 0.5s cubic-bezier(0.25, 0.46, 0.45, 0.94)
+    both;
   animation: slide-in-left 0.5s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
 }
 
 .slide-out-left {
-  -webkit-animation: slide-out-left 0.5s cubic-bezier(0.55, 0.085, 0.68, 0.53) both;
+  -webkit-animation: slide-out-left 0.5s cubic-bezier(0.55, 0.085, 0.68, 0.53)
+    both;
   animation: slide-out-left 0.5s cubic-bezier(0.55, 0.085, 0.68, 0.53) both;
 }
 
