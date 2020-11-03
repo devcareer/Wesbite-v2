@@ -17,13 +17,16 @@
     "@material-ui/core": "^4.11.0",
     "@material-ui/icons": "^4.9.1",
     "bootstrap": "^4.5.2",
-    "gatsby": "^2.24.63",
+    "cli": "^1.0.1",
+    "gatsby": "^2.24.68",
     "gatsby-plugin-sass": "^2.3.14",
     "node-sass": "^4.14.1",
     "react": "^16.12.0",
+    "react-click-away-listener": "^1.4.3",
     "react-dom": "^16.12.0",
     "react-icons": "^3.11.0",
-    "react-multi-carousel": "^2.5.5"
+    "react-multi-carousel": "^2.5.5",
+    "react-spring": "^8.0.27"
   },
   "devDependencies": {
     "prettier": "2.1.1"

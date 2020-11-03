@@ -3,9 +3,7 @@
   max-width: 100%;
   min-height: 101px;
   margin: 0 auto;
-
   background: $white;
-
   box-sizing: border-box;
 
   &:first-of-type {
@@ -15,26 +13,28 @@
 
 .top-div-active {
   background-color: $primaryColor;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
 }
 
 .top-div {
-  padding: 0 1em;
-
+  padding: 1em 1em 0;
   border: 1px solid $secondaryColor;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.1);
-
+  align-items: center;
   &__content {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    flex: 1;
   }
-
+  &:hover {
+    cursor: pointer;
+  }
   &__btn {
     color: $primaryColor;
-
-    &:hover {
-      cursor: pointer;
-    }
   }
 
   &__text {

@@ -1,152 +1,81 @@
-// Home page stlying
+// Home page styling
 .home {
-    &__hero {
-        background-color: $white;
-        .showcase__content{
-            display: flex;
-            align-content: center;
-            justify-content: space-between;
-            margin: 5rem 0;
-            &__text{
-                width: 100%;
-                .showcase__header{
-                    h1{
-                        color: $primaryColor;
-                        font-size: 3rem;
-                    }
-                }
-                .showcase__para{
-                    width: 100%;
-                    p{
-                        line-height: 2;
-                        font-size: 1.05rem;
-                    }
-                }
-            }
-            
-            // Circlular image styling
-            &__img{
-                width: 100%;
-                display: flex;
-                align-items: flex-end;
-                justify-content: flex-end;
-                .img{
-                    background: url("https://res.cloudinary.com/everich1/image/upload/v1601636352/girl_mozmgy.png");
-                    background-position: center;
-                    background-repeat: no-repeat;
-                    background-size: cover;
-                    border-radius: 50%;
-                    position: relative;
-                    width: 300px;
-                    height: 300px;
-    
-                    img{
-                        border: 10px solid #fff;
-                        box-shadow: 10px 20px 30px #05b99234;
-                       border-radius: 50%;
-                       position: absolute;
-                       width: 100%;
-                       height: 100%;
-                       left: -200px;
-                       bottom: -150px;
-                       transform-origin: left;
-                        margin-bottom: 3rem;
-                    }
-                }
-            }
-            .square{
-                width: 70px;
-                height: 70px;
-                border: 1px solid $primaryColor;
-                transform: rotate(-23.98deg);
-                position: absolute;
-                bottom: -85px;
-                right: 70px;
-            }
-        }
+  &__hero {
+    &__title {
+      font-size: 54px;
+      font-weight: 700;
+      color: $primaryColor;
     }
-
-
-     .goal{
-             margin: 10rem 0;
-                display: flex;
-                justify-content: space-between;
-                align-items: center;
-             &__header{
-                 font-size: 48px;
-                 font-weight: 700;
-                 width: 100%;
-                 p{
-                     color:$secondaryColor;
-                    line-height: 1.29;
-                 }
-                 span{
-                     display: block;
-                     color: $primaryColor;
-                 }
-             }
-             &__para{
-                 width: 100%;
-                 font-size: 24px;
-                 line-height: 1.4;
-             }
-     }
-}
-
-.clearfix {
-    overflow: auto;
-  }
-.clearfix::after {
-    content: "";
-    clear: both;
-    display: table;
-  }
-
-
-//import Midsection Styling 
-
-@import "../components//talent//midsection";
-
-//   Media query for small screens
-
-  @include media-breakpoint-down (sm){
-   .home .showcase__content{
-        display: block;
-
-        .showcase__header{
-           h1{
-               font-size: 2.3rem;
-           }
-        }
-        .img{
-            width: 250px !important;
-            height: 250px !important;
-            width: 98%;
-    
-            img{
-                width: 100%;
-                height: 100%;
-            }
-        }
-        .square{
-            width: 60px;
-            height:60px;
-        }
+    &__description {
+      font-size: 20px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: 37px;
+      letter-spacing: 0em;
+      text-align: left;
+      margin-bottom: 40px;
+      margin-top: 30px;
     }
-    .home .goal{
-        
-           display: block;
-        &__header{
-            font-size: 30px;       
-        }
-        &__para{
-            font-size: 18px;
-        }
+    &__images {
+      position: absolute;
+      right: 0;
+      img {
+        height: 290px;
+        width: 290px;
+        border-radius: 100%;
+        object-fit: cover;
+        border: 10px solid white;
+      }
+      svg {
+        position: absolute;
+        top: 300px;
+        right: 0;
+        animation-name: spin;
+        animation-duration: 5000ms;
+        animation-iteration-count: infinite;
+        animation-timing-function: linear;
+      }
+      &__2 {
+        position: absolute;
+        right: 110px;
+        top: 120px;
+      }
+    }
+    .col-md-5 {
+      position: relative;
+      height: 500px;
+      @include media-breakpoint-down(md) {
+        margin-top: 30px;
+      }
+    }
+  }
+  &__hero-extended {
+    padding: 40px 0;
+    h1 {
+      font-size: 48px;
+      font-style: normal;
+      font-weight: 700;
+      line-height: 64px;
+      text-align: left;
+      color: $secondaryColor;
+      &:last-child {
+        color: $primaryColor;
+      }
+    }
+    p {
+      padding-top: 15px;
+      color: $secondaryColor;
+      font-size: 24px;
+      line-height: 34px;
+    }
+  }
 }
 
-
+@keyframes spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
 }
-
-
-
-@import "../components//talent//slider";

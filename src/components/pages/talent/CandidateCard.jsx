@@ -3,15 +3,15 @@ import PropTypes from "prop-types"
 function Card({ name, image, title, socials }) {
   return (
     <>
-      <div className="card">
-        <img src={image} className="card__img" alt={name} />
-        <div className="card__body">
-          <p className="card__title">{name}</p>
-          <p className="card__text">{title}</p>
-          <p className="card__company">DevCareer</p>
+      <div className="candidate m-4">
+        <img src={image} className="candidate__img" alt={name} />
+        <div className="candidate__body">
+          <p className="candidate__title">{name}</p>
+          <p className="candidate__text">{title}</p>
+          <p className="candidate__company">DevCareer</p>
 
           {socials.map((each, idx) => (
-            <div className="card__socials" key={idx}>
+            <div className="candidate__socials" key={idx}>
               {" "}
               <a href={each.twitter} target="_blank" rel="noreferrer">
                 <img

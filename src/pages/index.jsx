@@ -1,28 +1,29 @@
 import React from "react"
-import Showcase from "../components/Showcase"
-import Slider from "../components/Slider"
-import Midsection from "../components/Midsection"
+import Hero from "../components/pages/home/Hero"
 import DefaultLayout from "../layouts/DefaultLayout"
-import Info from "../components/Info"
-import Partners from "../components/Partners";
 export default function Home() {
   return (
     <DefaultLayout>
       <div className="home">
-       <Showcase />
-       
-        <section className="home__exists">
-          <div className="clearfix"></div>
+        <Hero />
+        <section className="home__hero-extended">
           <div className="container">
-       <Midsection />            
-      <Info />
+            <div className="row">
+              <div className="col-md-6">
+                <h1>Become a developer</h1>
+                <h1>in 3 Months</h1>
+              </div>
+              <div className="col-md-6">
+                <p>
+                  Our program is full time and lasts 3 months, you're welcome to
+                  apply if you currently do not have a full time dedication to
+                  something else.
+                </p>
+              </div>
+            </div>
           </div>
         </section>
-        <Partners />
       </div>
-      <Slider />
     </DefaultLayout>
   )
 }
-
-
