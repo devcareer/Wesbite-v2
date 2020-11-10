@@ -49,7 +49,7 @@ export default function AccordionCard({ question, answer, content }) {
         className="bottom-div"
       >
         {" "}
-        <h1 className="bottom-div__header"> {answer}</h1>{" "}
+        <h4 className="bottom-div__header"> {answer}</h4>{" "}
         <p className="bottom-div__content"> {content}</p>{" "}
       </div>{" "}
     </section>

@@ -18,7 +18,7 @@
     "@material-ui/icons": "^4.9.1",
     "bootstrap": "^4.5.2",
     "cli": "^1.0.1",
-    "gatsby": "^2.24.68",
+    "gatsby": "^2.26.1",
     "gatsby-plugin-sass": "^2.3.14",
     "node-sass": "^4.14.1",
     "react": "^16.12.0",
