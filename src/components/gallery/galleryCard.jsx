@@ -40,6 +40,7 @@ export default function GalleryCard() {
         <div className="inner"></div>
         <p className="gallery__col--description">what the picture is about</p>
       </div>
+      
     </div>
   )
 }
