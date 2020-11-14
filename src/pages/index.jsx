@@ -25,7 +25,7 @@ import gofundme from "../assets/images/gofundme.png"
 import regular from "../assets/images/regular.png"
 import isams from "../assets/images/isams.png"
 import eden from "../assets/images/eden.png"
-import slider1 from "../assets/images/slider1.png"
+import Testimonials from "../components/pages/home/Testimonials"
 
 export default function Home() {
   return (
@@ -328,7 +328,9 @@ export default function Home() {
             </div>
           </div>
 
-          <div className="testimonials-carousel">
+          <Testimonials />
+
+          {/* <div className="testimonials-carousel">
             <h3 className="text-center testimonials-carousel__title">
               Testimonials
             </h3>
@@ -352,7 +354,7 @@ export default function Home() {
                 </div>
               </div>
             </div>
-          </div>
+          </div> */}
         </section>
       </div>
     </DefaultLayout>

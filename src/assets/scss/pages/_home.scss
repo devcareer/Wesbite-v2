@@ -88,17 +88,14 @@
   }
 
   &__list {
-    list-style-image: url("/src/assets/images/check.svg");
     margin-top: 27px;
+    display: grid;
+    grid-gap: 1.25rem;
   }
 
   &__bullet {
     font-size: 18px;
     line-height: 21px;
-    margin-top: 20px;
-    &:first-child {
-      margin-top: 0;
-    }
   }
 
   &__image {
@@ -304,6 +301,7 @@
     font-weight: 500;
     font-size: 24px;
     line-height: 28px;
+    margin-bottom: 3rem;
   }
 
   &__role {
