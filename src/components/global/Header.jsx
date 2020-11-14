@@ -28,7 +28,7 @@ function Header() {
               <Link to="/project">Projects</Link>
             </div>
             <div className="nav-link__dropdown-list">
-              <Link to="#">Blogs</Link>
+              <Link to="http://blog.devcareer.io/">Blogs</Link>
             </div>
           </ClickAwayListener>
         </animated.div>
@@ -149,6 +149,11 @@ function Header() {
             <li>
               <Link to="/project" activeClassName="active">
                 Projects
+              </Link>
+            </li>
+            <li>
+              <Link to="http://blog.devcareer.io/" activeClassName="active">
+                Blogs
               </Link>
             </li>
             <li>
