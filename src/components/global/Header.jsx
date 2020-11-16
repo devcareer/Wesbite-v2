@@ -152,7 +152,7 @@ function Header() {
               </Link>
             </li>
             <li>
-              <Link to="http://blog.devcareer.io/" activeClassName="active">
+              <Link to="http://blog.devcareer.i0/" activeClassName="active">
                 Blogs
               </Link>
             </li>

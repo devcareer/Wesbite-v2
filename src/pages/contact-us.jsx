@@ -1,5 +1,4 @@
 import React from "react"
-import { Link } from "gatsby"
 import DefaultLayout from "../layouts/DefaultLayout"
 
 export default function Contact() {
