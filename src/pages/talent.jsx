@@ -22,6 +22,7 @@ function Talent() {
                   name={candidate.name}
                   title={candidate.title}
                   socials={candidate.socials}
+                  company={candidate.company}
                 />
               </div>
             ))}

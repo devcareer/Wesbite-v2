@@ -1,6 +1,7 @@
 import React from "react"
 import PropTypes from "prop-types"
-function Card({ name, image, title, socials }) {
+import { GrLinkedin } from "react-icons/gr"
+function Card({ name, image, title, socials, company }) {
   return (
     <>
       <div className="candidate m-4">
@@ -8,7 +9,7 @@ function Card({ name, image, title, socials }) {
         <div className="candidate__body">
           <p className="candidate__title">{name}</p>
           <p className="candidate__text">{title}</p>
-          <p className="candidate__company">DevCareer</p>
+          <p className="candidate__company">{company}</p>
 
           {socials.map((each, idx) => (
             <div className="candidate__socials" key={idx}>
@@ -20,10 +21,7 @@ function Card({ name, image, title, socials }) {
                 />
               </a>
               <a href={each.github} target="_blank" rel="noreferrer">
-                <img
-                  src="https://res.cloudinary.com/gfellah45/image/upload/v1601474738/img/twitersvg_amzlth.svg"
-                  alt="github"
-                />
+                <GrLinkedin style={{ color: "#2b3236" }} />
               </a>
             </div>
           ))}
@@ -37,6 +35,7 @@ Card.propTypes = {
   name: PropTypes.string.isRequired,
   image: PropTypes.string.isRequired,
   title: PropTypes.string.isRequired,
+  company: PropTypes.string.isRequired,
   socials: PropTypes.array.isRequired,
 }
 
