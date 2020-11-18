@@ -1,6 +1,6 @@
 import React from "react"
 import { Link } from "gatsby"
-import { GrTwitter, GrInstagram } from "react-icons/gr"
+import { GrTwitter, GrInstagram, GrLinkedin } from "react-icons/gr"
 
 function Footer() {
   const footerLinks = [
@@ -60,11 +60,14 @@ function Footer() {
         </div>
         <div className="social__links">
           <div className="icons">
-            <Link to="" className="icon">
+            <Link to="https://twitter.com/dev_careers" className="icon">
               <GrTwitter />
             </Link>
-            <Link to="" className="icon">
-              <GrInstagram />
+            <Link
+              to="https://www.linkedin.com/company/devcareers/"
+              className="icon"
+            >
+              <GrLinkedin />
             </Link>
           </div>
         </div>
