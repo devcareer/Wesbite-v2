@@ -6,5 +6,19 @@
 
 module.exports = {
   /* Your site config here */
-  plugins: [`gatsby-plugin-sass`],
+  plugins: [
+    {
+      resolve: `gatsby-plugin-manifest`,
+      options: {
+        name: `devcareers site`,
+        short_name: `devcareers`,
+        start_url: `/`,
+        background_color: `#fff`,
+        theme_color: `#fff`,
+        display: `minimal-ui`,
+        icon: `src/assets/images/gatsby-icon.png`,
+      },
+    },
+    `gatsby-plugin-sass`,
+  ],
 }

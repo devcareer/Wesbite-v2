@@ -1,6 +1,6 @@
 import React from "react"
 import { Link } from "gatsby"
-import { GrTwitter, GrInstagram, GrLinkedin } from "react-icons/gr"
+import { GrTwitter, GrLinkedin } from "react-icons/gr"
 
 function Footer() {
   const footerLinks = [
