@@ -5,8 +5,8 @@ import { GrTwitter, GrLinkedin } from "react-icons/gr"
 function Footer() {
   const footerLinks = [
     {
-      text: "About Us",
-      location: "/about-us",
+      text: "Create CV",
+      location: "https://devcareer.io/join",
       class: "link",
     },
     {
