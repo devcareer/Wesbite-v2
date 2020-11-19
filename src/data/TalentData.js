@@ -131,7 +131,7 @@ const data = [
     image:
       "https://res.cloudinary.com/yarcx/image/upload/v1605642853/devcarrer/45_3_-_Temiloluwa_Abiodun-Ojo_bawx0n.jpg",
     name: "Temiloluwa Abiodun-Ojo",
-    company: "FIreSwitch Technologies",
+    company: "FireSwitch Technologies",
     title: "Backend Developer",
     socials: [
       {
@@ -203,7 +203,7 @@ const data = [
       "https://res.cloudinary.com/yarcx/image/upload/v1605643956/devcarrer/IMG_20190129_182942_598_-_Marho_Onothoja_hisa2w.jpg",
     name: "Oghenemarho Onothoja",
     company: "Nil",
-    title: "Data Science",
+    title: "Backend Developer",
     socials: [
       {
         twitter: "https://twitter.com/Maestro.inc",
@@ -231,7 +231,7 @@ const data = [
       "https://res.cloudinary.com/yarcx/image/upload/v1605642779/devcarrer/9F7DE505-4ECF-4BA8-BA2F-33A019445122_-_Zeinab_Ololade_siqvix.jpg",
     name: "Zainab Oyedeji",
     company: "Riby Finance",
-    title: "Front Developer",
+    title: "Frontend Developer",
     socials: [
       {
         twitter: "https://www.twitter.com/zeinabOye",
@@ -248,8 +248,8 @@ const data = [
     title: "Front Developer",
     socials: [
       {
-        twitter: "https://www.twitter.com/meyeneudo",
-        github: "facebook/meyeneudoh",
+        twitter: "https://twitter.com/iamfiropo",
+        github: "https://www.linkedin.com/in/ropo",
       },
     ],
   },
