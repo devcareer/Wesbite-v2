@@ -46,8 +46,8 @@ export const gallery = [
   },
   {
     col: "col-12 col-md-5",
-    src: "https://res.cloudinary.com/oluwadolapo/image/upload/v1602499793/DevCareer/IMG_6341_c48eip.jpg",
-    text: "Cohort I interns"
+    src: "https://res.cloudinary.com/broma/image/upload/v1605284077/devcareer/devcar_wyfd8m.jpg",
+    text: "Cohort I intern"
   },
   {
     col: "col-12 col-md-5",
@@ -56,13 +56,18 @@ export const gallery = [
   },
   {
     col: "col-12 col-md-7",
-    src: "https://res.cloudinary.com/oluwadolapo/image/upload/v1602504164/DevCareer/Image_from_iOS_1_1_rgl0xh.jpg",
-    text: ""
+    src: "https://res.cloudinary.com/oluwadolapo/image/upload/v1602499793/DevCareer/IMG_6341_c48eip.jpg",
+    text: "Cohort I interns"
   },
   {
     col: "col-12 col-md-7",
-    src: "https://res.cloudinary.com/broma/image/upload/v1605261689/devcareer/IMG_8248_z84qfu.jpg",
-    text: "Cohort II interns at Wennovation Hub, Abuja"
+    src: "https://res.cloudinary.com/broma/image/upload/v1605800075/devcareer/hero1_ctfpk7.jpg",
+    text: "Cohort I interns"
+  },
+  {
+    col: "col-12 col-md-5",
+    src: "https://res.cloudinary.com/broma/image/upload/v1605558203/devcareer/Ayomikun-pics_-_AYOMIKUN_EMMANUEL_oqczte.jpg",
+    text: "Cohort I intern"
   },
   {
     col: "col-12 col-md-5",
@@ -70,9 +75,9 @@ export const gallery = [
     text: "Cohort II interns"
   },
   {
-    col: "col-12 col-md-5",
-    src: "https://res.cloudinary.com/broma/image/upload/v1605283248/devcareer/8FAD0ED7-98D3-4D6C-BA90-A006AB398F9BL0001_vcvi20.jpg",
-    text: "Cohort II interns at AimToget Hub, Ibadan"
+    col: "col-12 col-md-7",
+    src: "https://res.cloudinary.com/broma/image/upload/v1605261689/devcareer/IMG_8248_z84qfu.jpg",
+    text: "Cohort II interns at Wennovation Hub, Abuja"
   },
   {
     col: "col-12 col-md-7",
@@ -80,9 +85,9 @@ export const gallery = [
     text: "Cohort II Interns"
   },
   {
-    col: "col-12 col-md-7",
-    src: "https://res.cloudinary.com/broma/image/upload/v1605283276/devcareer/IMG_20200807_095632_5_qckgpk.jpg",
-    text: "Cohort II Interns at 720 Degree Hub Ogun State"
+    col: "col-12 col-md-5",
+    src: "https://res.cloudinary.com/broma/image/upload/v1605283248/devcareer/8FAD0ED7-98D3-4D6C-BA90-A006AB398F9BL0001_vcvi20.jpg",
+    text: "Cohort II interns at AimToget Hub, Ibadan"
   },
   {
     col: "col-12 col-md-5",
@@ -90,9 +95,9 @@ export const gallery = [
     text: "Cohort II Interns in Lagos"
   },
   {
-    col: "col-12 col-md-5",
-    src: "https://res.cloudinary.com/broma/image/upload/v1605261685/devcareer/Image_from_iOS_1_jdyogt.jpg",
-    text: "Cohort II Interns"
+    col: "col-12 col-md-7",
+    src: "https://res.cloudinary.com/broma/image/upload/v1605283276/devcareer/IMG_20200807_095632_5_qckgpk.jpg",
+    text: "Cohort II Interns at 720 Degree Hub Ogun State"
   },
   {
     col: "col-12 col-md-7",
@@ -100,13 +105,58 @@ export const gallery = [
     text: ""
   },
   {
-    col: "col-12 col-md-7",
-    src: "https://res.cloudinary.com/broma/image/upload/v1605289289/devcareer/IMG_8222_cncqss.jpg",
+    col: "col-12 col-md-5",
+    src: "https://res.cloudinary.com/broma/image/upload/v1605261685/devcareer/Image_from_iOS_1_jdyogt.jpg",
     text: "Cohort II Interns"
   },
   {
     col: "col-12 col-md-5",
-    src: "https://res.cloudinary.com/broma/image/upload/v1605284077/devcareer/devcar_wyfd8m.jpg",
+    src: "https://res.cloudinary.com/broma/image/upload/v1605801306/devcareer/IMG_6276_iwwj7t.jpg",
+    text: "Cohort II Intern"
+  },
+  {
+    col: "col-12 col-md-7",
+    src: "https://res.cloudinary.com/broma/image/upload/v1605806245/devcareer/IMG-20200806-WA0029_qoaowf.jpg",
+    text: "Cohort II Intern"
+  },
+  {
+    col: "col-12 col-md-7",
+    src: "https://res.cloudinary.com/broma/image/upload/v1605289291/devcareer/IMG_8279_fv7ad0.jpg",
+    text: "Cohort II Interns"
+  },
+  {
+    col: "col-12 col-md-5",
+    src: "https://res.cloudinary.com/broma/image/upload/v1605558222/devcareer/IMG-20200709-WA0010_-_owojori_ernest_dsvkpx.jpg",
+    text: "Cohort I Intern"
+  },
+  {
+    col: "col-12 col-md-5",
+    src: "https://res.cloudinary.com/broma/image/upload/v1605558202/devcareer/My_image_-_Ajeigbe_John_Oluwaseyi_rqkgdc.jpg",
+    text: "Cohort I Intern"
+  },
+  {
+    col: "col-12 col-md-7",
+    src: "https://res.cloudinary.com/broma/image/upload/v1605801299/devcareer/IMG_3715_xjjcby.jpg",
+    text: "Cohort II Intern"
+  },
+  {
+    col: "col-12 col-md-7",
+    src: "https://res.cloudinary.com/broma/image/upload/v1605804986/devcareer/image_1_ba1tfb.png",
+    text: "Cohort II Interns"
+  },
+  {
+    col: "col-12 col-md-5",
+    src: "https://res.cloudinary.com/broma/image/upload/v1605805487/devcareer/IMG-20201110-WA0064_vaotuh.jpg",
+    text: "Cohort II Intern"
+  },
+  {
+    col: "col-12 col-md-5",
+    src: "https://res.cloudinary.com/broma/image/upload/v1605805918/devcareer/IMG-20201110-WA0040_1_oogzd1.jpg",
+    text: "Cohort II Intern"
+  },
+  {
+    col: "col-12 col-md-7",
+    src: "https://res.cloudinary.com/broma/image/upload/v1605805934/devcareer/IMG_1713_1_eamxmf.jpg",
     text: "Cohort II Intern"
   }
 ];
