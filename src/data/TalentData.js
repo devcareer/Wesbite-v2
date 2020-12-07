@@ -1,4 +1,20 @@
 const data = [
+
+  {
+    id: 19,
+    image:
+      "https://res.cloudinary.com/yarcx/image/upload/v1605642779/devcarrer/9F7DE505-4ECF-4BA8-BA2F-33A019445122_-_Zeinab_Ololade_siqvix.jpg",
+    name: "Zainab Oyedeji",
+    company: "Riby Finance",
+    title: "Frontend Developer",
+    socials: [
+      {
+        twitter: "https://www.twitter.com/zeinabOye",
+        github: "https://www.linkedin.com/mwlite/in/zainab-oyedeji-015764174",
+      },
+    ],
+  },
+  
   {
     id: 1,
     image:
@@ -16,6 +32,20 @@ const data = [
   {
     id: 2,
     image:
+      "https://res.cloudinary.com/yarcx/image/upload/v1605643474/devcarrer/73020018-00C9-497C-9230-F3606258B0F9_-_Arafah_Ogunfemi_fbfojt.jpg",
+    name: "Arafah Ogunfemi ",
+    company: "Deep Learning Science",
+    title: "Frontend Developer",
+    socials: [
+      {
+        twitter: "https://twitter.com/bamiogunfemi",
+        github: "https://linkedin.com/in/bami-ogunfemi",
+      },
+    ],
+  },
+  {
+    id: 3,
+    image:
       "https://res.cloudinary.com/yarcx/image/upload/v1605627727/devcarrer/My_image_-_Ajeigbe_John_Oluwaseyi_fsjcpn.jpg",
     name: "Ajeigbe John Oluwaseyi",
     company: "F&K Savings",
@@ -28,7 +58,21 @@ const data = [
     ],
   },
   {
-    id: 3,
+    id: 14,
+    image:
+      "https://res.cloudinary.com/yarcx/image/upload/v1605644404/devcarrer/IMG_20200317_143330_924_-_Ifeoma_Sandra_nmwx2n.jpg",
+    name: "Okafor Ifeoma Sandra",
+    company: "Easyswitch group",
+    title: "Backend Developer",
+    socials: [
+      {
+        twitter: "https://twitter.com/Sandie_iphy",
+        github: "https://www.linkedin.com/in/ifeoma-sandra-okafor-2aaab6158",
+      },
+    ],
+  },
+  {
+    id: 4,
     image:
       "https://res.cloudinary.com/yarcx/image/upload/v1605644169/devcarrer/IMG_20200311_133537_995_-_Osunkunle_Olanrewaju_bga4px.jpg",
     name: "Osunkunle Olanrewaju ",
@@ -42,10 +86,26 @@ const data = [
       },
     ],
   },
+
   {
-    id: 4,
+    id: 22,
     image:
-      "https://res.cloudinary.com/yarcx/image/upload/v1605643328/devcarrer/186225_-_Copy-1_-_akinsoji_hammed_erdzzp.jpg",
+      "https://res.cloudinary.com/yarcx/image/upload/v1605644850/devcarrer/WhatsApp_Image_2020-09-07_at_8.57.00_PM_-_Taiwo_Owoseni_erzjjy.jpg",
+    name: "Taiwo Owoseni",
+    company: "Airtel Nigeria",
+    title: "Business Intelligence Analyst",
+    socials: [
+      {
+        twitter: "https://twitter.com/thayehas",
+        github: "https://www.linkedin.com/in/taiwo-owoseni-361a45156/",
+      },
+    ],
+  },
+
+  {
+    id: 5,
+    image:
+      "https://res.cloudinary.com/okoyecb/image/upload/v1607346077/20200811_153357_-_Desmond_Edem_nle6uf.jpg",
     name: "Desmond Edem",
     company: "Pettysave Limited",
     title: "Backend Developer",
@@ -57,7 +117,7 @@ const data = [
     ],
   },
   {
-    id: 5,
+    id: 6,
     image:
       "https://res.cloudinary.com/yarcx/image/upload/v1605643175/devcarrer/64F98F09-33DC-4DD4-95D5-B7A6D929D222_-_Olomitutu_Olufemi_Sunday_eidjuy.jpg",
     name: "Olomitutu Sunday Olufemi ",
@@ -71,7 +131,7 @@ const data = [
     ],
   },
   {
-    id: 6,
+    id: 7,
     image:
       "https://res.cloudinary.com/yarcx/image/upload/v1605644672/devcarrer/IMG-20200115-WA0015_-_Idris_Abolade_y8za9b.jpg",
     name: "Olaoye Idris",
@@ -84,20 +144,7 @@ const data = [
       },
     ],
   },
-  {
-    id: 7,
-    image:
-      "https://res.cloudinary.com/yarcx/image/upload/v1605643474/devcarrer/73020018-00C9-497C-9230-F3606258B0F9_-_Arafah_Ogunfemi_fbfojt.jpg",
-    name: "Arafah Ogunfemi ",
-    company: "Deep Learning Science",
-    title: "Frontend Developer",
-    socials: [
-      {
-        twitter: "https://twitter.com/bamiogunfemi",
-        github: "https://linkedin.com/in/bami-ogunfemi",
-      },
-    ],
-  },
+ 
   {
     id: 8,
     image:
@@ -170,20 +217,6 @@ const data = [
     ],
   },
   {
-    id: 14,
-    image:
-      "https://res.cloudinary.com/yarcx/image/upload/v1605644404/devcarrer/IMG_20200317_143330_924_-_Ifeoma_Sandra_nmwx2n.jpg",
-    name: "Okafor Ifeoma Sandra",
-    company: "Easyswitch group",
-    title: "Backend Developer",
-    socials: [
-      {
-        twitter: "https://twitter.com/Sandie_iphy",
-        github: "https://www.linkedin.com/in/ifeoma-sandra-okafor-2aaab6158",
-      },
-    ],
-  },
-  {
     id: 15,
     image:
       "https://res.cloudinary.com/yarcx/image/upload/v1605644497/devcarrer/IMG_20200426_092356_186_-_Samuel_Nnaji_awpqpv.jpg",
@@ -226,20 +259,6 @@ const data = [
     ],
   },
   {
-    id: 19,
-    image:
-      "https://res.cloudinary.com/yarcx/image/upload/v1605642779/devcarrer/9F7DE505-4ECF-4BA8-BA2F-33A019445122_-_Zeinab_Ololade_siqvix.jpg",
-    name: "Zainab Oyedeji",
-    company: "Riby Finance",
-    title: "Frontend Developer",
-    socials: [
-      {
-        twitter: "https://www.twitter.com/zeinabOye",
-        github: "https://www.linkedin.com/mwlite/in/zainab-oyedeji-015764174",
-      },
-    ],
-  },
-  {
     id: 20,
     image:
       "https://res.cloudinary.com/yarcx/image/upload/v1605644571/devcarrer/IMG_20200812_125614_347_-_Ropo_Olatujoye_agm18g.jpg",
@@ -264,20 +283,6 @@ const data = [
       {
         twitter: "https://twitter.com/MercyTunde",
         github: "https://www.linkedin.com/in/tunde-ajagbe-2b6bb4131/",
-      },
-    ],
-  },
-  {
-    id: 22,
-    image:
-      "https://res.cloudinary.com/yarcx/image/upload/v1605644850/devcarrer/WhatsApp_Image_2020-09-07_at_8.57.00_PM_-_Taiwo_Owoseni_erzjjy.jpg",
-    name: "Taiwo Owoseni",
-    company: "Airtel Nigeria",
-    title: "Business Intelligence Analyst",
-    socials: [
-      {
-        twitter: "https://twitter.com/thayehas",
-        github: "https://www.linkedin.com/in/taiwo-owoseni-361a45156/",
       },
     ],
   },
