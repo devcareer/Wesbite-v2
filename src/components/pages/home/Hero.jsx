@@ -1,6 +1,10 @@
 import React from "react"
+import { ToastContainer, toast } from "react-toastify"
+import "react-toastify/dist/ReactToastify.css"
 
 export default function Hero() {
+  const notify = () => toast("We are not taking applications at the moment!")
+
   return (
     <section className="home__hero">
       <div className="container">
@@ -12,7 +16,9 @@ export default function Hero() {
               and are having problems selecting an area of programming they wish
               to major in and those who need tools to aid your learning.
             </p>
-            <button>Apply Now</button>
+
+            <button onClick={notify}>Apply Now</button>
+            <ToastContainer />
           </div>
           <div className="col-md-5">
             <div className="home__hero__images">
