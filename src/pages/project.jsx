@@ -30,7 +30,7 @@ function project() {
                 />
               </div>
               <button className="button--outline">
-                <Link to="https://platr.ng/">View Project</Link>
+                <a href="https://platr.ng/">View Project</a>
               </button>
             </div>
           </div>
@@ -50,9 +50,9 @@ function project() {
                   />
                 </div>
                 <button className="button--outline">
-                  <Link to="https://github.com/devcareer/code-jammers-backend/wiki/Backend-sample-test-APIs">
+                  <a href="https://github.com/devcareer/code-jammers-backend/wiki/Backend-sample-test-APIs">
                     View Project
-                  </Link>
+                  </a>
                 </button>
               </div>
               <div className="col-12 col-md-6">

@@ -1,9 +1,6 @@
 import React from "react"
-//import the images
 
 export default function Content({ subHeading, heading, desc, id }) {
-  //eslint-disable-next-line
-
   return (
     <div className="project-card">
       <div className="project-card__content">
