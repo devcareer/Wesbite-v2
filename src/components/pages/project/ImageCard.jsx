@@ -8,7 +8,7 @@ function ImageCard({ imgOne, imgTwo, background }) {
           <img src={imgOne} alt="one" />
         </p>
         <p className="project__img__two">
-          <img src={imgTwo} alt="two" />
+          {/* <img src={imgTwo} alt="two" /> */}
         </p>
       </div>
     </div>

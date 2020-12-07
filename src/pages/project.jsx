@@ -5,6 +5,7 @@ import DefaultLayout from "../layouts/DefaultLayout"
 import ImageCard from "../components/pages/project/ImageCard"
 import Content from "../components/pages/project/Content"
 import Img from "../assets/images/proj-v2.png"
+import Img3 from "../assets/images/testing.png"
 import Img2 from "../assets/images/project-v1.png"
 import ProjectData from "../data/ProjectsData.js"
 
@@ -16,7 +17,7 @@ function project() {
         <div className="row">
           <div className="row container m-auto">
             <div className="col-12 col-md-6">
-              <ImageCard imgOne={Img} imgTwo={Img2} />
+              <ImageCard imgOne={Img} />
             </div>
 
             <div className="col-12 col-md-6">
@@ -39,20 +40,20 @@ function project() {
               <div className="col-12 col-md-6">
                 <div className="project-card">
                   <Content
-                    id={ProjectData[0].id}
-                    subHeading={ProjectData[0].sub}
-                    heading={ProjectData[0].heading}
-                    desc={ProjectData[0].desc}
+                    id={ProjectData[1].id}
+                    subHeading={ProjectData[1].sub}
+                    heading={ProjectData[1].heading}
+                    desc={ProjectData[1].desc}
                   />
                 </div>
               </div>
               <div className="col-12 col-md-6">
-                <ImageCard imgOne={Img} imgTwo={Img2} />
+                <ImageCard imgOne={Img3} />
               </div>
             </div>
           </div>
 
-          <div className="row  mb-4 container m-auto">
+          {/* <div className="row  mb-4 container m-auto">
             <div className="col-12 col-md-6">
               <ImageCard imgOne={Img} imgTwo={Img2} />
             </div>
@@ -67,7 +68,7 @@ function project() {
                 />
               </div>
             </div>
-          </div>
+          </div> */}
         </div>
       </div>
     </DefaultLayout>
