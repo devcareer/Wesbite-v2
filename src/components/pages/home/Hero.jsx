@@ -10,7 +10,7 @@ export default function Hero() {
             <p className="home__hero__description">
               We help individual who are you trying to get a foothold in tech
               and are having problems selecting an area of programming they wish
-              to major im and those who need tools to aid your learning.
+              to major in and those who need tools to aid your learning.
             </p>
             <button>Apply Now</button>
           </div>
@@ -22,7 +22,7 @@ export default function Hero() {
                 alt="A Dev Career candidate"
               />
               <img
-                src="https://res.cloudinary.com/dhhi9ckbk/image/upload/v1604404393/IMG_6584_dvo3vd.png"
+                src="https://res.cloudinary.com/okoyecb/image/upload/v1607336993/IMG_6577_konksk.jpg"
                 className="home__hero__images__2"
                 alt="A group of Dev Career candidate"
               />
