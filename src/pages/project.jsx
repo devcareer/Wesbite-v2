@@ -1,6 +1,6 @@
 import React from "react"
 import Hero from "../components/global/Hero"
-
+import { Link } from "gatsby"
 import DefaultLayout from "../layouts/DefaultLayout"
 import ImageCard from "../components/pages/project/ImageCard"
 import Content from "../components/pages/project/Content"
@@ -28,6 +28,9 @@ function project() {
                   desc={ProjectData[0].desc}
                 />
               </div>
+              <button className="button--outline">
+                <Link to="https://platr.ng/">View Project</Link>
+              </button>
             </div>
           </div>
 
@@ -45,6 +48,11 @@ function project() {
                     desc={ProjectData[0].desc}
                   />
                 </div>
+                <button className="button--outline">
+                  <Link to="https://github.com/devcareer/code-jammers-backend/wiki/Backend-sample-test-APIs">
+                    View Project
+                  </Link>
+                </button>
               </div>
               <div className="col-12 col-md-6">
                 <ImageCard imgOne={Img} imgTwo={Img2} />
