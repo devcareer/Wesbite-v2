@@ -184,33 +184,23 @@ export default function Home() {
 
               <div className="col-12 col-md-6 d-flex flex-wrap justify-content-between">
                 <div className="all-about__selling-point">
-                  <div className="all-about__number">22</div>
+                  <div className="all-about__number">72</div>
                   <span className="all-about__subtext">Developers trained</span>
                 </div>
 
                 <div className="all-about__selling-point">
-                  <div className="all-about__number">10</div>
+                  <div className="all-about__number">11</div>
                   <span className="all-about__subtext">Partnerships</span>
                 </div>
 
                 <div className="all-about__selling-point">
-                  <div className="all-about__number">2</div>
-                  <span className="all-about__subtext">Awards</span>
-                </div>
-
-                <div className="all-about__selling-point">
-                  <div className="all-about__number">30</div>
+                  <div className="all-about__number">48</div>
                   <span className="all-about__subtext">Patrons</span>
                 </div>
 
                 <div className="all-about__selling-point">
-                  <div className="all-about__number">48</div>
-                  <span className="all-about__subtext">Donations</span>
-                </div>
-
-                <div className="all-about__selling-point">
-                  <div className="all-about__number">22</div>
-                  <span className="all-about__subtext">Donations</span>
+                  <div className="all-about__number">11</div>
+                  <span className="all-about__subtext">Mentors</span>
                 </div>
               </div>
             </div>

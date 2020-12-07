@@ -23,7 +23,7 @@ export default function Home() {
               adequate resources to dive into Tech. DevCareer is focused on
               supporting these group of people.
             </p>
-            <Link to="#" className="button d-inline-flex">
+            <Link to="https://bit.ly/3lQuZN4" className="button d-inline-flex">
               View Report
             </Link>
           </div>
