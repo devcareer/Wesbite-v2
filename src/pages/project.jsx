@@ -27,6 +27,9 @@ function project() {
                   desc={ProjectData[0].desc}
                 />
               </div>
+              <button className="button--outline">
+                <a href="https://platr.ng/">View Project</a>
+              </button>
             </div>
           </div>
 
@@ -44,6 +47,11 @@ function project() {
                     desc={ProjectData[1].desc}
                   />
                 </div>
+                <button className="button--outline">
+                  <a href="https://github.com/devcareer/code-jammers-backend/wiki/Backend-sample-test-APIs">
+                    View Project
+                  </a>
+                </button>
               </div>
               <div className="col-12 col-md-6">
                 <ImageCard imgOne={Img3} />
