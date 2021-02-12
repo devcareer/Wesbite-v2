@@ -12,7 +12,7 @@ export default function Hero() {
           <div className="col-md-7">
             <h1 className="home__hero__title">Grow Your Career in Tech</h1>
             <p className="home__hero__description">
-              We help individual who are you trying to get a foothold in tech
+              We help individuals who are trying to get a foothold in tech
               and are having problems selecting an area of programming they wish
               to major in and those who need tools to aid your learning.
             </p>
