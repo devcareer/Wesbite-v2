@@ -17,7 +17,9 @@ export default function Hero() {
               to major in and those who need tools to aid your learning.
             </p>
 
-            <button onClick={notify}>Apply Now</button>
+            <a href="https://forms.gle/SKrMqmW143uDzds87">
+              <button> Apply Now</button>
+            </a>
             <ToastContainer />
           </div>
           <div className="col-md-5">
