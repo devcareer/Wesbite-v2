@@ -18,7 +18,7 @@ export default function Hero() {
             </p>
 
             <a href="https://forms.gle/SKrMqmW143uDzds87">
-              <button> Apply Now</button>
+              <button>Join our Slack</button>
             </a>
             <ToastContainer />
           </div>
