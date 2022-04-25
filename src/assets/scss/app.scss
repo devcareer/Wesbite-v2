@@ -1,0 +1,35 @@
+// CORE
+@import "bootstrap/scss/bootstrap-grid.scss";
+@import "bootstrap/scss/bootstrap.scss";
+@import "./core/overwrite";
+@import "./core/variables";
+@import "./core/font";
+@import "./core/overwrite";
+
+// COMPONENTS
+@import "./components/global/header";
+@import "./components/global/footer";
+@import "./components/talent/candidatecard";
+@import "./components/project/content";
+@import "./components/project/imagecard";
+
+//PAGES
+
+@import "./components/global/button";
+@import "./components/global/hero";
+@import "./components/global/footer";
+@import "./components/talent/candidatecard";
+@import "./components/faq/accordion";
+@import "./components/talent/info";
+@import "./components/partners";
+@import "./components/gallery/cards";
+
+//PAGES
+@import "./pages/home";
+@import "./pages/faq";
+@import "./pages/talent";
+@import "./pages/gallery";
+@import "./pages/support";
+@import "./pages/about";
+@import "./pages/project";
+@import "./pages/contact";

@@ -1,0 +1,123 @@
+.partners{
+    .sponsors__cards{
+        .partner-one{
+            width: 80%;
+            margin: 0 auto;
+           display: grid;
+           grid-template-columns: repeat(4, 1fr);
+           grid-gap: 3rem;
+            padding: 0 0 3rem 0;
+            
+        }
+        .partner-two{
+            width: 70%;
+            margin: 3rem auto;
+            display: grid;
+           grid-template-columns: repeat(4, 1fr);
+           grid-gap: 3rem;
+            padding: 0 0 3rem 0;
+        }
+        .partner-three{
+            width: 55%;
+            margin: 3rem auto;
+            display: grid;
+           grid-template-columns: repeat(3, 1fr);
+           grid-gap: 3rem;
+            padding: 0 0 3rem 0;
+        }
+
+        .sponsors-one{
+            width: 65%;
+            margin: 3rem auto;
+            display: grid;
+           grid-template-columns: repeat(3, 1fr);
+           grid-gap: 3rem;
+            padding: 0 0 3rem 0;
+        }
+
+        .sponsors-two{
+            width: 65%;
+            margin: 3rem auto;
+            display: grid;
+           grid-template-columns: repeat(3, 1fr);
+           grid-gap: 3rem;
+            padding: 0 0 3rem 0;
+        }
+    }
+}
+
+
+
+@include media-breakpoint-down (md){
+    .partners{
+        .sponsors__cards{
+            .partner-one{
+            
+               grid-template-columns: repeat(2, 1fr);
+               place-items: center;
+                
+            }
+            .partner-two{
+              
+               grid-template-columns: repeat(2, 1fr);
+               place-items: center;
+
+            }
+            .partner-three{
+              
+               grid-template-columns: repeat(1, 1fr);
+               place-items: center;
+
+            }
+    
+            .sponsors-one{
+               grid-template-columns: repeat(1, 1fr);
+               place-items: center;
+
+            }
+    
+            .sponsors-two{
+                place-items: center;
+               grid-template-columns: repeat(2, 1fr);
+             
+            }
+        }
+    }
+    
+}
+
+
+@include media-breakpoint-down (sm){
+    .partners{
+        .sponsors__cards{
+            .partner-one{
+            
+               grid-template-columns: repeat(1, 1fr);
+                
+            }
+            .partner-two{
+              
+               grid-template-columns: repeat(1, 1fr);
+
+            }
+            .partner-three{
+              
+               grid-template-columns: repeat(1, 1fr);
+
+            }
+    
+            .sponsors-one{
+               grid-template-columns: repeat(1, 1fr);
+               place-items: center;
+
+            }
+    
+            .sponsors-two{
+                place-items: center;
+               grid-template-columns: repeat(1, 1fr);
+             
+            }
+        }
+    }
+    
+}

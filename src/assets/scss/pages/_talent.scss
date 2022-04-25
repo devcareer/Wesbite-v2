@@ -1,0 +1,17 @@
+.talent {
+  &__title {
+    font-family: Rubik;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    text-align: center;
+    color: #1f1f1f;
+    margin-bottom: 4rem;
+  }
+  &__button__container {
+    width: 50%;
+    margin: auto;
+    text-align: center;
+    padding: 5rem 0;
+  }
+}

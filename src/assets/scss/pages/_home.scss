@@ -1,0 +1,321 @@
+// Home page styling
+.home {
+  &__hero {
+    &__title {
+      font-size: 54px;
+      font-weight: 700;
+      color: $primaryColor;
+    }
+    &__description {
+      font-size: 20px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: 37px;
+      letter-spacing: 0em;
+      text-align: left;
+      margin-bottom: 40px;
+      margin-top: 30px;
+    }
+    &__images {
+      position: absolute;
+      right: 0;
+      img {
+        height: 290px;
+        width: 290px;
+        border-radius: 100%;
+        object-fit: cover;
+        border: 10px solid white;
+      }
+      svg {
+        position: absolute;
+        top: 300px;
+        right: 0;
+        animation-name: spin;
+        animation-duration: 5000ms;
+        animation-iteration-count: infinite;
+        animation-timing-function: linear;
+      }
+      &__2 {
+        position: absolute;
+        right: 110px;
+        top: 120px;
+      }
+    }
+    .col-md-5 {
+      position: relative;
+      height: 500px;
+      @include media-breakpoint-down(md) {
+        margin-top: 30px;
+      }
+    }
+  }
+  &__hero-extended {
+    &--title,
+    &--span {
+      font-size: 48px;
+      font-style: normal;
+      font-weight: 700;
+      line-height: 64px;
+      text-align: left;
+      color: $secondaryColor;
+      padding: 0;
+    }
+    &--span {
+      color: $primaryColor;
+    }
+    p {
+      padding-top: 15px;
+      color: $secondaryColor;
+      font-size: 24px;
+      line-height: 34px;
+    }
+  }
+}
+
+.aim-section {
+  color: $secondaryColor;
+  &__sub-title {
+    display: block;
+    width: 171px;
+    font-size: 18px;
+    color: $primaryColor;
+    margin-bottom: 14px;
+  }
+  &__title {
+    font-weight: bold;
+    font-size: 2rem;
+    line-height: 38px;
+  }
+
+  &__list {
+    margin-top: 27px;
+    display: grid;
+    grid-gap: 1.25rem;
+  }
+
+  &__bullet {
+    font-size: 18px;
+    line-height: 21px;
+  }
+
+  &__image {
+    &::after {
+      position: absolute;
+      content: "";
+      bottom: 0;
+      width: 100%;
+      border: 1px solid $primaryColor;
+    }
+  }
+}
+
+.learning-category {
+  margin-top: 5rem;
+  text-align: center;
+  color: $secondaryColor;
+  @media screen and (min-width: 768px) {
+    margin-top: 10rem;
+  }
+
+  &__title {
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 38px;
+    margin-bottom: 13px;
+  }
+
+  &__subtitle {
+    display: block;
+    font-size: 14px;
+    line-height: 17px;
+    margin-bottom: 55px;
+  }
+}
+
+.image-subset {
+  position: relative;
+  &:last-child {
+    margin-bottom: 0;
+  }
+
+  &__title {
+    width: 100%;
+    position: absolute;
+    display: block;
+    padding: 45px 0 29px;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 142.2%;
+    color: white;
+  }
+
+  &:nth-child(1) &__title {
+    background: rgba(60, 46, 158, 0.48);
+  }
+  &:nth-child(2) &__title {
+    background: rgba(117, 222, 190, 0.86);
+  }
+  &:nth-child(3) &__title {
+    background: rgba(254, 201, 82, 1);
+  }
+
+  &__image-subset__image {
+    object-fit: cover;
+  }
+}
+
+.quote {
+  font-weight: bold;
+  font-size: 32px;
+  line-height: 38px;
+  color: $secondaryColor;
+}
+
+.how-to {
+  margin-top: 7rem;
+
+  &__icon {
+    margin-bottom: 2rem;
+  }
+
+  &__title {
+    font-weight: bold;
+    font-size: 2rem;
+    line-height: 38px;
+    color: $secondaryColor;
+    margin: 0;
+  }
+
+  &__text {
+    font-size: 1rem !important;
+    line-height: 175.3% !important;
+    color: $secondaryColor !important;
+    padding-top: 20px !important;
+  }
+}
+
+.all-about {
+  &__selling-point {
+    width: 50%;
+    margin-bottom: 73px;
+    @media screen and (min-width: 992px) {
+      width: 33.33%;
+    }
+  }
+
+  &__number {
+    font-weight: bold;
+    font-size: 3.5rem;
+    line-height: 68px;
+    color: $primaryColor;
+  }
+
+  &__subtext {
+    font-weight: 500;
+    font-size: 1.5rem;
+    line-height: 28px;
+    color: $secondaryColor;
+  }
+}
+
+.partnering-hubs {
+  margin-top: 10rem;
+
+  &__title {
+    font-weight: 500;
+    font-size: 2rem;
+    line-height: 38px;
+    color: $secondaryColor;
+    margin-bottom: 5.4rem;
+  }
+
+  &__logo-section {
+    display: grid;
+    grid-row-gap: 50px;
+    align-items: center;
+
+    @media screen and (min-width: 768px) {
+      grid-template-columns: repeat(2, 1fr);
+    }
+
+    @media screen and (min-width: 1200px) {
+      grid-template-columns: repeat(4, 1fr);
+    }
+  }
+
+  &__logo {
+    justify-self: center;
+  }
+}
+
+.sponsors {
+  margin-top: 10rem;
+  margin-bottom: 12rem;
+
+  &__logo-section {
+    display: grid;
+    grid-row-gap: 50px;
+    align-items: center;
+
+    @media screen and (min-width: 768px) {
+      grid-template-columns: repeat(2, 1fr);
+    }
+
+    @media screen and (min-width: 1200px) {
+      grid-template-columns: repeat(3, 1fr);
+    }
+  }
+}
+
+.testimonials-carousel {
+  padding: 157px 10% 29px;
+  background: rgba(31, 31, 31, 0.05);
+  color: $secondaryColor;
+
+  &__title {
+    font-weight: bold;
+    font-size: 2rem;
+    line-height: 38px;
+    margin-bottom: 3px;
+  }
+
+  &__image {
+    display: flex;
+    width: 276px;
+    height: 276px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin: 0 auto;
+  }
+
+  &__text {
+    font-size: 24px;
+    line-height: 142.2%;
+
+    @media screen and (min-width: 768px) {
+      width: 75%;
+    }
+  }
+
+  &__name {
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 28px;
+    margin-bottom: 3rem;
+  }
+
+  &__role {
+    font-size: 14px;
+    line-height: 17px;
+    color: $primaryColor;
+  }
+}
+
+@keyframes spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}

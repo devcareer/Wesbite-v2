@@ -1,0 +1,37 @@
+button,
+.button {
+  height: 68px;
+  background-color: $primaryColor;
+  color: $white;
+  padding: 0 38px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: none;
+  font-size: 1em;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  border: 1px solid $primaryColor;
+
+  @include media-breakpoint-down(sm) {
+    height: 50px;
+    font-size: 1em;
+  }
+
+  &:hover {
+    border: 1px solid $primaryColor;
+    color: $primaryColor !important;
+    background: $white;
+  }
+  &--outline {
+    background-color: transparent;
+    border: 1px solid $primaryColor;
+    color: $primaryColor;
+
+    &:hover {
+      background-color: $primaryColor;
+      color: $white !important;
+    }
+  }
+}
