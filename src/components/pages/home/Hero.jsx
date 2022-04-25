@@ -3,7 +3,7 @@ import { ToastContainer, toast } from "react-toastify"
 import "react-toastify/dist/ReactToastify.css"
 
 export default function Hero() {
-  const notify = () => toast("We are not taking applications at the moment!")
+  // const notify = () => toast("We are not taking applications at the moment!")
 
   return (
     <section className="home__hero">
@@ -12,9 +12,9 @@ export default function Hero() {
           <div className="col-md-7">
             <h1 className="home__hero__title">Grow Your Career in Tech</h1>
             <p className="home__hero__description">
-              We help individuals who are trying to get a foothold in tech
-              and are having problems selecting an area of programming they wish
-              to major in and those who need tools to aid your learning.
+              We help individuals who are trying to get a foothold in tech and
+              are having problems selecting an area of programming they wish to
+              major in and those who need tools to aid your learning.
             </p>
 
             <a href="https://forms.gle/SKrMqmW143uDzds87">

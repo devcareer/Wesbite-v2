@@ -24,12 +24,14 @@ function Header() {
       item && (
         <animated.div key={key} style={props} className="nav-link__dropdown">
           <ClickAwayListener onClickAway={() => setDropdown(false)}>
-            <div className="nav-link__dropdown-list">
-              <Link to="/project">Projects</Link>
-            </div>
-            <div className="nav-link__dropdown-list">
-              <Link to="http://blog.devcareer.io/">Blogs</Link>
-            </div>
+            <>
+              <div className="nav-link__dropdown-list">
+                <Link to="/project">Projects</Link>
+              </div>
+              <div className="nav-link__dropdown-list">
+                <Link to="http://blog.devcareer.io/">Blogs</Link>
+              </div>
+            </>
           </ClickAwayListener>
         </animated.div>
       )

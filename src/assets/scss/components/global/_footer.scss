@@ -125,7 +125,12 @@
     margin-top: 0.7rem;
     border-radius: 5px !important;
     padding: 0.8rem 2.5rem;
+    height: 52px !important;
     width: 100%;
+
+    @media screen and (min-width: 576px) {
+      margin-top: 0 !important;
+    }
   }
   .form__input {
     border-radius: 5px !important;
