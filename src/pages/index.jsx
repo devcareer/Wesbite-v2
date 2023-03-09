@@ -37,7 +37,7 @@ export default function Home() {
             <div className="row">
               <div className="col-md-6">
                 <h2 className="home__hero-extended--title">
-                  Become a developer <br />
+                  Start your tech career <br />
                   <span className="home__hero-extended--span">in 3 Months</span>
                 </h2>
               </div>
